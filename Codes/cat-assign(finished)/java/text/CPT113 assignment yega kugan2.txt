@@ -1,0 +1,3975 @@
+CPT113/CPM213 Programming Methodology & Data 
+Structures Assignment 2 - HACKATHON (5 days) 
+ 
+ 
+ 
+Name: YEGANATHAN  A/L S.KANNAN 
+Matric number: (153241) 
+Name: KUGANRAJ A/L SELVARAJ 
+Matric number: (153470) 
+Project Name: Quiz game with mulitplayers 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Table of content 
+Page Content 
+3-17 Flowchart 
+18-21 UML Diagram 
+22-124 C++ code 
+125-133 Screenshots 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Flow chart 
+ 
+ 
+ 
+ 
+ 
+ 
+ False 
+ 
+ 
+ 
+ 
+ True 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ True 
+ 
+ 
+ 
+ 
+  
+ False 
+                                                                                 
+Start 
+string key; 
+Enter code to 
+start game: 
+While 
+key==#1 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+A 
+LEVEL 1 ROUND 1 
+Rnd1Lvl1question1(question1) 
+                                                 
+ 
+ 
+ 
+ 
+ 
+ 
+True 
+ 
+ 
+ 
+ 
+ 
+ 
+ False 
+ 
+ 
+ 
+ 
+ True 
+ 
+ 
+ 
+ 
+ 
+  
+ False 
+Display first question 
+for first person of 2nd 
+group 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+A 
+A 
+LEVEL 1 ROUND 1 
+Rnd1Lvl1question2(question2) 
+LEVEL 1 ROUND 1 
+Rnd1Lvl1question2(question2) 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ True 
+ 
+ 
+ 
+ 
+ 
+ 
+ False 
+ 
+ 
+ 
+  False 
+ 
+  
+ 
+ 
+ True 
+ 
+ 
+ 
+ 
+A 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 1 ROUND 1 
+Rnd1Lvl1question3(question3) 
+string key; 
+Enter code to 
+continue 
+game: 
+While 
+key==#2 
+A 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ True 
+ 
+ 
+ 
+ 
+ 
+ 
+False 
+ 
+ 
+ 
+ 
+ 
+ True 
+ 
+ 
+ 
+ 
+ 
+ 
+ False  
+ 
+A 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 1 ROUND 2 
+Rnd2Lvl1question1(question1) 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 1 ROUND 2 
+Rnd2Lvl1question2(question2) 
+A 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+True 
+ 
+ 
+ 
+ 
+ 
+ 
+False 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ False 
+ 
+ 
+ 
+ 
+ True 
+A 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 1 ROUND 2 
+Rnd2Lvl1question3(question3) 
+Display answers of Level 
+one round 1 and round 2 
+string key; 
+Enter code to 
+continue 
+game: 
+While 
+key==#3 
+A 
+ 
+ 
+ 
+ 
+ 
+ True 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ False 
+ 
+ 
+ 
+ 
+ 
+ True 
+ 
+ 
+ 
+ 
+ 
+ 
+ False 
+  
+ 
+A 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 2 ROUND 1 
+Rnd2Lvl1question1(question1) 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 2 ROUND 1 
+Rnd2Lvl1question2(question2) 
+A 
+ 
+ 
+ 
+ 
+ 
+ 
+True 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+False 
+ 
+ 
+ 
+ False 
+ 
+ 
+ 
+ 
+ True 
+ 
+ 
+  
+ 
+ 
+A 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 2 ROUND 1 
+Rnd2Lvl1question3(question3) 
+string key; 
+Enter code to 
+continue 
+game: 
+While 
+key==#4 
+A 
+ 
+ 
+ 
+ 
+ 
+ 
+True 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+False 
+ 
+ 
+ 
+ 
+ 
+True 
+ 
+ 
+ 
+ 
+ 
+ 
+ False  
+ 
+A 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 2 ROUND 2 
+Rnd2Lvl2question1(question1) 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 2 ROUND 2 
+Rnd2Lvl2question2(question2) 
+A 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ True 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ False 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+A 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 2 ROUND 2 
+Rnd2Lvl2question3(question3) 
+Display answers of Level 2 round 1 
+and round 2 and the answers 
+answered by members 
+A 
+ 
+ 
+ 
+ 
+  
+ True 
+True 
+ 
+ True 
+ False 
+ 
+ 
+ False 
+ 
+false 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ False 
+ 
+  
+ 
+ 
+ True 
+ 
+A 
+int wronggrp1, wronggrp2, 
+wronggrp3 
+Enter number of wrongs of 
+group 1, group 2, group3 in 
+second level: 
+ 
+if 
+wronggrp1 
+!=1 or 2 
+if 
+wronggrp2 
+!=1 or 2 
+if 
+wronggrp2 
+!=1 or 2 
+Display number of people left 
+in each group after 
+elimination 
+string key; 
+Enter the code to continue 
+While 
+key==#5 
+A 
+ 
+ 
+ 
+ 
+ 
+ 
+True 
+ 
+ 
+ 
+ 
+ 
+ 
+ False 
+  
+ 
+ 
+ 
+ 
+ 
+True 
+ 
+ 
+ 
+ 
+ 
+  
+False 
+ 
+A 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 3 ROUND 1 
+Rnd1Lvl3question1(question1) 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 3 ROUND 1 
+Rnd2Lvl3question2(question2) 
+A 
+ 
+ 
+ 
+ 
+ 
+ 
+True 
+ 
+ 
+ 
+ 
+ False 
+ 
+ 
+ 
+ 
+ 
+ 
+False True 
+ True 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ False   
+ 
+A 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 3 ROUND 1 
+Rnd1Lvl3question3(question3) 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 3 ROUND 2 
+Rnd2Lvl3question1(question1) 
+A 
+string key; 
+Enter the code to 
+continue 
+While 
+key==#5 
+ 
+ 
+ 
+ 
+ 
+True 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        
+        False 
+ 
+ 
+ 
+ 
+ 
+True 
+ 
+ 
+ 
+ 
+ 
+  
+        False 
+ 
+A 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 3 ROUND 2 
+Rnd2Lvl3question2(question2) 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+LEVEL 3 ROUND 3 
+Rnd1Lvl3question3(question3) 
+A 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ True 
+ 
+ 
+  
+ 
+ False 
+A 
+Display the correct answers 
+and answers answered by 
+members 
+int wronggrp1, wronggrp2, 
+wronggrp3 
+Enter number of wrongs of 
+group 1, group 2, group3 in 
+second level: 
+ 
+if number of 
+members left 
+in all groups 
+are same 
+if number of 
+members left in two 
+highest number of 
+group member are 
+same if group left 
+with highest 
+number of 
+members 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+Tiebreakquestion() 
+C 
+B 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+Tiebreakquestion() 
+A 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ True 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+if The quickest 
+group telling 
+the correct 
+answer wins 
+else The 
+another group 
+wins 
+if The quickest 
+group telling 
+the correct 
+answer wins 
+if quickest 
+telling wrong 
+answer gets 
+eliminated 
+char ans 
+Enter the answer: 
+While ans !=A 
+&&ans!=B&&
+ans!=C 
+Tiebreakquestion() 
+//between another two group 
+B 
+A 
+if The quickest 
+group telling 
+the correct 
+answer wins 
+else The 
+another 
+group wins 
+Ends 
+C 
+ 
+ 
+UML Diagram 
+                                    
+               
+                                                                 Members1 
+       - struct Group1 
+      - Group1 *stackTop; 
+                                + Members1() 
+                        + ~Members1() 
+                                  + bool isEmpty(); 
+                   + void displaystack(); 
+                   + void entmember1(int); 
+                    + void elimember1(int&); 
+                    + void displaystack2(); 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+               
+                                                                 Members2 
+       - struct Group2 
+      - Group2 *stackTop; 
+                                + Members2() 
+                        + ~Members2() 
+                                  + bool isEmpty(); 
+                   + void displaystack(); 
+                   + void entmember2(int); 
+                    + void elimember2(int&); 
+                    + void displaystack3(); 
+                                  +void displaystack5(); 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+               
+                                                                 Members3 
+       - struct Group3 
+      - Group3 *stackTop; 
+                                + Members3() 
+                        + ~Members3() 
+                                  + bool isEmpty(); 
+                   + void displaystack(); 
+                   + void entmember3(int); 
+                    + void elimember3(int&); 
+                    + void displaystack4(); 
+                                  +void displaystack6(); 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                     Quiz 
+ 
+- struct ListNode1                                                                              - struct ListNode4  
+- struct ListNode2                                                                              - struct ListNode5 
+- struct ListNode3                                                                              - struct ListNode6 
+ 
+ 
+     + void containanswer(char);                                                       +  void Rnd1Lvl1question1(char); 
+     + void Checkanswer1(char,char);                                             +   void Rnd1Lvl1question2(char); 
+       +void Checkanswer2(char,char);                                             +  void Rnd1Lvl1question3(char);     
+      +void Checkanswer3(char,char);        +void Rnd2Lvl1question1(char); 
+      +void Check2answer1(char,char);       + void Rnd2Lvl1question2(char); 
+      +void Check2answer2(char,char);        +void Rnd2Lvl1question3(char); 
+      +void Check2answer3(char,char);         +void displaylist(); 
+      +void containanswer2(char);         +void Rnd1Lvl2question1(char); 
+      +void RND1Checkanswer1(char,char);                                      + void Rnd1Lvl2question2(char); 
+      +void RND1Checkanswer2(char,char);                                       + void Rnd1Lvl2question3(char); 
+      +void RND1Checkanswer3(char,char);                                        + void Rnd2Lvl2question1(char); 
+      +void RND2Checkanswer1(char,char);                                      +  void Rnd2Lvl2question3(char); 
+      +void RND2Checkanswer3(char,char);                                       +  void Rnd2Lvl2question2(char);           
+      +void RND2Checkanswer2(char,char); 
+        +  void displaylist2();       + void containanswer3(char); 
+       +void Rnd1Lvl3question1(char);                        + void Rnd1Lvl3question2(char); 
+       +void Rnd1Lvl3question3(char);                       + void Rnd2Lvl3question1(char); 
+       +void Rnd2Lvl3question2(char);                                                +  void Rnd2Lvl3question3(char); 
+        +void displaylist3();                                                                       +   void dtrmwinner(); 
+C++ code 
+Member.h file 
+#ifndef MEMBERS_H 
+#define MEMBERS_H 
+ 
+class Members1 // create class to create stack for the group members 
+{ 
+ private: // create stack named Group1 
+  struct Group1 
+{ 
+     int members1,members2,members3; 
+     Group1 *next;  
+}; 
+ 
+        Group1 *stackTop; 
+ 
+    public: // constructor and destructor 
+     Members1(){stackTop=nullptr;} 
+     ~Members1() 
+     { 
+      Group1 *temp; 
+      while(stackTop != nullptr) 
+      { 
+       temp = stackTop; // temp is point to the stackTop currentnode 
+       stackTop=stackTop->next; // advance stackTop to the next 
+       delete temp; // deallocate memory occupied by temp 
+   } 
+  } 
+    
+ // function that used within the class 
+ bool isEmpty(); 
+ void displaystack(); 
+ void entmember1(int); 
+ void elimember1(int&); 
+ void displaystack2();   
+}; 
+ 
+class Members2 // second class created to create another stack 
+{ 
+ private: // create stack named Group2 
+  struct Group2 
+{ 
+     int members2; 
+     Group2 *next;  
+}; 
+ 
+        Group2 *stackTop2; 
+ 
+    public: // constructor and destructor 
+     Members2(){stackTop2=nullptr;} 
+     ~Members2() 
+     { 
+      Group2 *temp2; 
+      while(stackTop2 != nullptr) 
+      { 
+       temp2 = stackTop2; // temp is point to the stackTop currentnode 
+       stackTop2=stackTop2->next; // advance stackTop to the next 
+       delete temp2; // deallocate memory occupied by temp 
+   } 
+  } 
+    
+ // function that used within the class 
+ bool isEmpty(); 
+ void entmember2(int); 
+ void elimember2(int&); 
+ void displaystack3(); 
+ void displaystack5(); 
+      
+}; 
+ 
+class Members3 // third class created to create another stack 
+{ 
+ private:// create stack named Group3 
+  struct Group3 
+{ 
+     int members3; 
+     Group3 *next;  
+}; 
+ 
+        Group3 *stackTop3; 
+ 
+    public:// constructor and destructor 
+     Members3(){stackTop3=nullptr;} 
+     ~Members3() 
+     { 
+      Group3 *temp3; 
+      while(stackTop3 != nullptr) 
+      { 
+       temp3 = stackTop3; // temp is point to the stackTop currentnode 
+       stackTop3=stackTop3->next; // advance stackTop to the next 
+       delete temp3; // deallocate memory occupied by temp 
+   } 
+  } 
+    
+ // function that used within the class 
+ bool isEmpty(); 
+ void entmember3(int); 
+ void elimember3(int&); 
+ void displaystack4(); 
+ void displaystack6(); 
+      
+}; 
+#endif 
+ 
+ 
+ 
+ 
+ 
+ 
+Member.cpp file 
+#include<iostream> 
+#include"Quiz.h" 
+#include"Members.h" 
+using namespace std; 
+ 
+void Members1::entmember1(int entmembers1) // this is to push the group member into the 
+stack for grp1 
+{ 
+ int grp1mem; 
+ Group1 *newNode = nullptr; // poniter to the newnode 
+ newNode = new Group1; // allocate new node 
+ newNode->members1 = entmembers1; // store the member for grp1 
+  
+ if(isEmpty())  // If there are no nodes in the list make newNode to firstnode 
+ { 
+  stackTop = newNode; 
+  newNode->next =nullptr; 
+ } 
+ else 
+ { 
+  newNode->next = stackTop; 
+  stackTop = newNode; 
+ }  
+} 
+ 
+void Members1::elimember1(int &eligrp1) // this is to to pop out the member from stack for 
+grp1 
+{ 
+ Group1 *temp = nullptr; // declare temporary pointer 
+ int wrong;  
+ cout << "The instructor have to enter the number of wrong obtain by Group1: " ; 
+ cin >> wrong; // input the number of wrong 
+ cout << "\n"; 
+ while(wrong>2) // validation for the number of wrong 
+ { 
+  cout << "Sorry you input wrong value it must be less than 3. Try again. Thank 
+You" << endl; 
+  cin >>wrong; 
+  cout << "\n"; 
+    } 
+ if(wrong==1) // if the wrong number is 1 pop 1 member from the grp 
+ { 
+ if(isEmpty()) // check whether the stack is empty or not 
+ { 
+  cout << "The stack is Empty.\n"; 
+ } 
+ else 
+ { 
+  eligrp1= stackTop->members1; // let the eligrp1 hold the value ponited by the 
+stackTop 
+  temp = stackTop->next; // let the pointer temp point to where stackTop->next 
+  delete stackTop; // delete stackTop 
+  stackTop =temp;  // stackTop point to where temp is poiting to 
+  cout << "Sorry Group1 member "<< eligrp1 << " is eliminated due to 1 wrong 
+answer." << endl; // display which member has been pop out 
+ } 
+    } 
+    else 
+      cout << "Congratulation for your Group to enter next round without any elimination" << 
+endl; 
+    if(wrong==2) // if the wrong number is 2 pop 1 member from the grp 
+    { 
+ if(isEmpty()) 
+ { 
+  cout << "The stack is Empty.\n"; 
+ } 
+ else 
+ {   
+     
+  eligrp1= stackTop->members1; // let the eligrp1 hold the value ponited by the 
+stackTop 
+  temp = stackTop->next; // let the pointer temp point to where stackTop->next 
+  delete stackTop; // delete stackTop 
+  stackTop =temp; // stackTop point to where temp is poiting to 
+  cout << "Sorry Group1 member "<< eligrp1 << " is eliminated due to 2 wrong 
+answers" << endl; // display which member has been pop ou 
+     
+ } 
+    }   
+} 
+ 
+void Members2::entmember2(int entmembers2) // this is to enter the group member into the 
+stack for grp2 
+{ 
+ int grp2mem; 
+ Group2 *newNode2 = nullptr; 
+ newNode2 = new Group2; 
+ newNode2->members2 = entmembers2; 
+  
+ if(isEmpty()) // If there are no nodes in the list make newNode to firstnode 
+ { 
+  stackTop2 = newNode2; 
+  newNode2->next =nullptr; 
+ } 
+ else 
+ { 
+  newNode2->next = stackTop2; 
+  stackTop2 = newNode2; 
+ }  
+} 
+ 
+void Members2::elimember2(int &eligrp2) // this is to to pop out the member from stack for 
+grp2 
+{ 
+ Group2 *temp2 = nullptr; 
+ int wrong; 
+ cout << "The instructor have to enter the number of wrong obtain by Group2: " ; 
+ cin >> wrong; 
+ cout << "\n"; 
+ while(wrong>6) 
+ { 
+  cout << "Sorry you input wrong value it must be less than 6. Try again. Thank 
+You" << endl; 
+  cin >>wrong; 
+  cout << "\n"; 
+    } 
+ if(wrong==1) 
+ { 
+  if(isEmpty()) 
+  { 
+  cout << "The stack is Empty.\n"; 
+  } 
+  else 
+     { 
+  eligrp2= stackTop2->members2; 
+  temp2 = stackTop2->next; 
+  delete stackTop2; 
+  stackTop2 =temp2; 
+  cout << "Sorry Group2 member "<< eligrp2 << " is eliminated due to 1 wrong 
+answer." << endl; 
+   } 
+    } 
+    else 
+      cout << "Congratulation for your Group to enter next round without any elimination" << 
+endl; 
+     
+ if(wrong==2) 
+    { 
+ if(isEmpty()) 
+ { 
+  cout << "The stack is Empty.\n"; 
+ } 
+ else 
+ {   
+     
+  eligrp2= stackTop2->members2; 
+  temp2 = stackTop2->next; 
+  delete stackTop2; 
+  stackTop2 =temp2; 
+  cout << "Sorry Group1 member "<< eligrp2 << " is eliminated due to 2 wrong 
+answers" << endl; 
+     
+ } 
+    } 
+} 
+ 
+void Members3::entmember3(int entmembers3) // this is to enter the group member into the 
+stack for grp3 
+{ 
+ int grp3mem; 
+ Group3 *newNode3 = nullptr; 
+ newNode3 = new Group3; 
+ newNode3->members3 = entmembers3; 
+  
+ if(isEmpty()) // If there are no nodes in the list make newNode to firstnode 
+ { 
+  stackTop3 = newNode3; 
+  newNode3->next =nullptr; 
+ } 
+ else 
+ { 
+  newNode3->next = stackTop3; 
+  stackTop3 = newNode3; 
+ }  
+} 
+ 
+void Members3::elimember3(int &eligrp3) // this is to to pop out the member from stack for 
+grp3 
+{ 
+ Group3 *temp3 = nullptr; 
+ int wrong; 
+ cout << "The instructor have to enter the number of wrong obtain by Group3: " ; 
+ cin >> wrong; 
+ cout << "\n"; 
+ while(wrong>6) 
+ { 
+  cout << "Sorry you input wrong value it must be less than 6. Try again. Thank 
+You" << endl; 
+  cin >>wrong; 
+  cout << "\n"; 
+    } 
+ if(wrong==1) 
+ { 
+ if(isEmpty()) 
+ { 
+  cout << "The stack is Empty.\n"; 
+ } 
+ else 
+ { 
+  eligrp3= stackTop3->members3; 
+  temp3 = stackTop3->next; 
+  delete stackTop3; 
+  stackTop3 =temp3; 
+  cout << "Sorry Group3 member "<< eligrp3 << " is eliminated due to 1 wrong 
+answer" << endl; 
+ } 
+    } 
+    else 
+      cout << "Congratulation for your Group to enter next round without any elimination" << 
+endl; 
+     
+ if(wrong>4) 
+    { 
+ if(isEmpty()) 
+ { 
+  cout << "The stack is Empty.\n"; 
+ } 
+ else 
+ {   
+     
+  eligrp3= stackTop3->members3; 
+  temp3 = stackTop3->next; 
+  delete stackTop3; 
+  stackTop3 =temp3; 
+  cout << "Sorry Group1 member "<< eligrp3 << " is eliminated due to 2 wrong 
+answers" << endl; 
+     
+ } 
+    } 
+} 
+ 
+bool Members1::isEmpty() // this function is to check whether the stack is empty or not 
+{ 
+ bool status; 
+  
+ if(!stackTop) 
+    status = true; 
+ else 
+    status =false; 
+  
+ return status; 
+} 
+ 
+bool Members2::isEmpty() 
+{ 
+ bool status; 
+  
+ if(!stackTop2) 
+    status = true; 
+ else 
+    status =false; 
+  
+ return status; 
+} 
+ 
+bool Members3::isEmpty() 
+{ 
+ bool status; 
+  
+ if(!stackTop3) 
+    status = true; 
+ else 
+    status =false; 
+  
+ return status; 
+} 
+ 
+void Members1::displaystack2() // it will display the member that can answer in level3 
+questions for Grp1 
+{ 
+ if(stackTop == nullptr) 
+ { 
+  cout << "The stack is empty"; 
+ } 
+ else 
+ { 
+  struct Group1 *temp=stackTop; // temp is created and point to stackTop 
+  cout << "Group1 members left and promote to Level3 is: " << endl; 
+  while(temp!= nullptr) // iterate works until the temp is point to nullptr 
+  { 
+   cout <<"Member" << temp->members1; // display the node in the stack 
+         cout <<"\t" << endl; 
+   temp=temp->next; // counter for temp move to the next node 
+  } 
+ } 
+} 
+ 
+void Members2::displaystack3() // // it will display the member that can answer in level3 
+questions for Grp2 
+{ 
+ if(stackTop2 == nullptr) 
+ { 
+  cout << "The stack is empty"; 
+ } 
+ else 
+ { 
+  struct Group2 *temp2=stackTop2; 
+  cout << "Group2 members left and promote to Level3 is: " << endl; 
+  while(temp2!= nullptr) 
+  { 
+    
+    
+   cout <<"Member" << temp2->members2; 
+         cout <<"\t" << endl; 
+   temp2=temp2->next; 
+  } 
+ } 
+} 
+ 
+void Members3::displaystack4() // it will display the member that can answer in level3 
+questions for Grp1 
+{ 
+ if(stackTop3 == nullptr) 
+ { 
+  cout << "The stack is empty" << endl; 
+ } 
+ else 
+ { 
+  struct Group3 *temp3=stackTop3; 
+  cout << "Group2 members left and promote to Level3 is: "<< endl; 
+  while(temp3!= nullptr) 
+  { 
+   cout <<"Member" << temp3->members3; 
+         cout <<"\t" << endl; 
+   temp3=temp3->next; 
+  } 
+ } 
+} 
+ 
+ 
+Quiz.h file 
+#ifndef QUIZ_H 
+#define QUIZ_H 
+ 
+ 
+class Quiz 
+{ 
+  struct ListNode1 // first linklist 
+{ 
+ char ans; 
+ struct ListNode1 *next; 
+}; 
+ 
+struct ListNode2 // second liklist 
+{ 
+ char question1; 
+ struct ListNode2 *next; 
+}; 
+ 
+struct ListNode3 // third linklist 
+{ 
+ char ans2; 
+ struct ListNode3 *next; 
+}; 
+struct ListNode4 // fourthlinklist 
+{ 
+ char question2; 
+ struct ListNode4 *next; 
+}; 
+ 
+struct ListNode5 // fifthlinklist 
+{ 
+ char ans3; 
+ struct ListNode5 *next; 
+}; 
+struct ListNode6 // sixth linklst 
+{ 
+ char question3; 
+ struct ListNode6 *next; 
+}; 
+ 
+ 
+ private: // creating head pointer  
+    ListNode1 *head1;  
+    ListNode2 *head2; 
+    ListNode3 *head3; 
+    ListNode4 *head4; 
+    ListNode5 *head5; 
+    ListNode6 *head6; 
+     
+     
+  
+ public: // creating constructor and destructor 
+     Quiz() 
+     {head1 = nullptr; 
+      head2 = nullptr; 
+      head3 = nullptr; 
+      head4 = nullptr; 
+      head5 = nullptr; 
+      head6 = nullptr; 
+       
+       
+  } 
+      
+    ~Quiz() 
+    { 
+     head1 = nullptr; 
+     head2 = nullptr; 
+     head3 = nullptr; 
+     head4 = nullptr; 
+     head5 = nullptr; 
+     head6 = nullptr; 
+     } 
+     
+    // function header and used in the class named Quiz as shown in main file 
+    void containanswer(char); 
+    void Rnd1Lvl1question1(char); 
+    void Checkanswer1(char,char); 
+    void Rnd1Lvl1question2(char); 
+    void Checkanswer2(char,char); 
+    void Rnd1Lvl1question3(char); 
+    void Checkanswer3(char,char); 
+    void Rnd2Lvl1question1(char); 
+    void Check2answer1(char,char); 
+    void Rnd2Lvl1question2(char); 
+    void Check2answer2(char,char); 
+    void Rnd2Lvl1question3(char); 
+    void Check2answer3(char,char); 
+    void displaylist(); 
+     
+    void containanswer2(char); 
+    void Rnd1Lvl2question1(char); 
+    void RND1Checkanswer1(char,char); 
+    void Rnd1Lvl2question2(char); 
+    void RND1Checkanswer2(char,char); 
+    void Rnd1Lvl2question3(char); 
+    void RND1Checkanswer3(char,char); 
+    void Rnd2Lvl2question1(char); 
+    void RND2Checkanswer1(char,char); 
+    void Rnd2Lvl2question2(char); 
+    void RND2Checkanswer2(char,char); 
+    void Rnd2Lvl2question3(char); 
+    void RND2Checkanswer3(char,char); 
+    void displaylist2(); 
+     
+    void containanswer3(char); 
+    void Rnd1Lvl3question1(char); 
+    void Rnd1Lvl3question2(char); 
+    void Rnd1Lvl3question3(char); 
+     
+    void Rnd2Lvl3question1(char); 
+    void Rnd2Lvl3question2(char); 
+    void Rnd2Lvl3question3(char); 
+     
+    void displaylist3(); 
+    void dtrmwinner(); 
+        
+}; 
+#endif 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Quiz1.cpp file 
+#include<iostream> 
+#include"Quiz.h" 
+#include"Members.h" 
+using namespace std; 
+ 
+void Quiz::Rnd1Lvl1question1(char question1) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode2 *newNode2; // A new node 
+ ListNode2 *nodePtr2; // to the point current node that want to inside answer 
+ nodePtr2 = head2; // it will become the head of the node 
+ char answer1; 
+  
+ cout << "->As the Group1 Member 1 please answer this question." << endl; 
+ cout << "->what is the largest country in the world?" << endl; 
+ cout << "A.Russia\nB.USA\nC.India" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer1; // the answer will be inside into second linklist 
+ cout << "\n"; 
+ while(answer1 !='A' && answer1 !='B' && answer1 !='C') // validation for the ans that 
+will answered by players 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group1 Member 1 please answer this questions" << endl; 
+  cout << "->what is the largest country in the world?" << endl; 
+     cout << "A.Russia\nB.USA\nC.India" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer1; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+  
+ newNode2 = new ListNode2; 
+    newNode2->question1 = answer1; 
+    newNode2->next = nullptr;  
+        
+    if (!head2) // If there are no nodes in the linklist make newNode to firstnode 
+    head2 = newNode2; 
+    else  
+{ 
+    nodePtr2 = head2; 
+ 
+    while (nodePtr2->next) 
+    nodePtr2 = nodePtr2->next; 
+  
+    nodePtr2->next = newNode2; 
+} 
+} 
+ 
+void Quiz::Checkanswer1(char ans,char question1) // It is to check the answer for the question1 
+{ 
+ 
+ ListNode1 *nodePtr1; 
+ ListNode2 *nodePtr2; 
+  
+ nodePtr1 = head1; 
+ nodePtr2 = head2; 
+  
+  
+ if(nodePtr1->ans == nodePtr2->question1) // compare 1 linklist to another linklist 
+ { 
+    cout << "The answer: " << nodePtr1->ans << endl; 
+ cout << "The answer is correct" << endl; 
+ cout << "\n"; 
+    } 
+ else 
+ { 
+ cout << "The answer is wrong" << endl; 
+ cout << "Dont worry best of luck for round 2" << endl; 
+ cout << "\n"; 
+} 
+} 
+ 
+void Quiz::Rnd1Lvl1question2(char question1) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode2 *newNode2; 
+ ListNode2 *nodePtr2; 
+ nodePtr2 = head2; 
+ char answer1; 
+  
+ cout << "->As the Group2 Member 1 please answer this question." << endl; 
+ cout << "->What color does yellow and blue make? " << endl; 
+ cout << "A.Purple\nB.Green\nC.Pink" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer1; 
+ cout << "\n"; 
+ while(answer1 !='A' && answer1 !='B' && answer1 !='C') // validation for the answer will 
+be answer by the player 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group2 Member 1 please answer this questions" << endl; 
+  cout << "->What color does yellow and blue make? " << endl; 
+  cout << "A.Purple\nB.Green\nC.Pink" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer1; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+  
+ newNode2 = new ListNode2; 
+    newNode2->question1 = answer1; 
+    newNode2->next = nullptr;  
+        
+    if (!head2)  // If there are no nodes in the linklist make newNode to firstnode 
+    head2 = newNode2; 
+    else  
+{ 
+    nodePtr2 = head2; 
+ 
+    while (nodePtr2->next) 
+    nodePtr2 = nodePtr2->next; 
+  
+    nodePtr2->next = newNode2; 
+} 
+} 
+ 
+void Quiz::Checkanswer2(char ans,char question1) // It is to check the answer for the question2 
+{ 
+ 
+ ListNode1 *nodePtr1; 
+ ListNode2 *nodePtr2; 
+  
+ nodePtr1 = head1; 
+ nodePtr2 = head2; 
+  
+ nodePtr1 = nodePtr1->next; // the iteration is to display the node that wanted in the 
+linklist 
+    nodePtr2 = nodePtr2->next; 
+  
+ if(nodePtr1->ans == nodePtr2->question1) 
+ { 
+    cout << "The answer: " << nodePtr1->ans << endl; 
+ cout << "The answer is correct" << endl; 
+ cout << "\n"; 
+    } 
+ else 
+ { 
+ cout << "The answer is wrong" << endl; 
+ cout << "Dont worry best of luck for round 2" << endl; 
+ cout << "\n"; 
+    }    
+} 
+ 
+ 
+void Quiz::Rnd1Lvl1question3(char question1) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode2 *newNode2; 
+ ListNode2 *nodePtr2; 
+ nodePtr2 = head2; 
+ char answer1; 
+  
+ cout << "->As the Group3 Member 1 please answer this question." << endl; 
+ cout << "->What is the largest animal in the world? " << endl; 
+ cout << "A.sperm whale\nB.humpback whale\nC.blue whale" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer1; 
+ cout << "\n"; 
+ while(answer1 !='A' && answer1 !='B' && answer1 !='C') // validation for the answer 
+answered by player 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group3 Member 1 please answer this questions" << endl; 
+  cout << "->What is the largest animal in the world? " << endl; 
+  cout << "A.sperm whale\nB.humpback whale\nC.blue whale" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer1; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+  
+ newNode2 = new ListNode2; 
+    newNode2->question1 = answer1; 
+    newNode2->next = nullptr;  
+        
+    if (!head2)  // If there are no nodes in the linklist make newNode to firstnode 
+    head2 = newNode2; 
+    else  
+{ 
+    nodePtr2 = head2; 
+ 
+    while (nodePtr2->next) 
+    nodePtr2 = nodePtr2->next; 
+  
+    nodePtr2->next = newNode2; 
+} 
+} 
+ 
+void Quiz::Checkanswer3(char ans,char question1) 
+{ 
+ 
+ ListNode1 *nodePtr1; 
+ ListNode2 *nodePtr2; 
+  
+ nodePtr1 = head1; 
+ nodePtr2 = head2; 
+  
+ for(int i=0;i<2;i++) // the iteration is to display the node that wanted in the linklist 
+ { 
+ nodePtr1 = nodePtr1->next; 
+    nodePtr2 = nodePtr2->next; 
+    } 
+ 
+  
+ if(nodePtr1->ans == nodePtr2->question1) 
+ { 
+    cout << "The answer: " << nodePtr1->ans << endl; 
+ cout << "The answer is correct" << endl; 
+ cout << "\n"; 
+  
+    } 
+ else 
+ { 
+ cout << "The answer is wrong" << endl; 
+ cout << "Dont worry best of luck for round 2" << endl; 
+ cout << "\n"; 
+    }    
+} 
+ 
+void Quiz::Rnd2Lvl1question1(char question1) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+ ListNode2 *newNode2; 
+ ListNode2 *nodePtr2; 
+ nodePtr2 = head2; 
+ char answer1; 
+  
+ cout << "->As the Group1 Member 2 please answer this question." << endl; 
+ cout << "->Which planet is closest to the sun? " << endl; 
+ cout << "A.Mars\nB.Venus\nC.Mercury" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer1; 
+ cout << "\n"; 
+ while(answer1 !='A' && answer1 !='B' && answer1 !='C') // validation for the answer 
+answered by player 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group1 Member 2 please answer this questions" << endl; 
+  cout << "->Which planet is closest to the sun? " << endl; 
+  cout << "A.Mars\nB.Venus\nC.Mercury" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer1; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+  
+ newNode2 = new ListNode2; 
+    newNode2->question1 = answer1; 
+    newNode2->next = nullptr;  
+        
+    if (!head2)  // If there are no nodes in the linklist make newNode to firstnode 
+    head2 = newNode2; 
+    else  
+{ 
+    nodePtr2 = head2; 
+ 
+    while (nodePtr2->next) 
+    nodePtr2 = nodePtr2->next; 
+  
+    nodePtr2->next = newNode2; 
+} 
+} 
+ 
+void Quiz::Check2answer1(char ans,char question1) 
+{ 
+ ListNode1 *nodePtr1; 
+ ListNode2 *nodePtr2; 
+  
+ nodePtr1 = head1; 
+ nodePtr2 = head2; 
+  
+ for(int i=0;i<3;i++) // the iteration is to display the node that wanted in the linklist 
+ { 
+ nodePtr1 = nodePtr1->next; 
+    nodePtr2 = nodePtr2->next; 
+    } 
+ 
+  
+ if(nodePtr1->ans == nodePtr2->question1) 
+ { 
+    cout << "The answer: " << nodePtr1->ans << endl; 
+ cout << "The answer is correct" << endl; 
+ cout << "\n"; 
+    } 
+ else 
+ { 
+ cout << "The answer is wrong" << endl; 
+ cout << "Dont worry best of luck for Level 2" << endl; 
+ cout << "\n"; 
+    }    
+} 
+ 
+void Quiz::Rnd2Lvl1question2(char question1) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+ ListNode2 *newNode2; 
+ ListNode2 *nodePtr2; 
+ nodePtr2 = head2; 
+ char answer1; 
+  
+ cout << "->As the Group2 Member 2 please answer this question." << endl; 
+ cout << "->What is the abundant gas in the atmosphere?" << endl; 
+ cout << "A.Nitrogen\nB.Oxygen\nC.Carbon Dioxide" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer1; 
+ cout << "\n"; 
+ while(answer1 !='A' && answer1 !='B' && answer1 !='C') 
+ { 
+  cout << "->You enter option is invalid.Please enter the option in capital 
+letter.Thank you!!!" << endl; 
+  cout << "->As the Group2 Member 2 please answer this questions" << endl; 
+  cout << "->What is the abundant gas in the atmosphere?" << endl; 
+  cout << "A.Nitrogen\nB.Oxygen\nC.Carbon Dioxide" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer1; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+  
+ newNode2 = new ListNode2; 
+    newNode2->question1 = answer1; 
+    newNode2->next = nullptr;  
+        
+    if (!head2)  // If there are no nodes in the linklist make newNode to firstnode 
+    head2 = newNode2; 
+    else  
+{ 
+    nodePtr2 = head2; 
+ 
+    while (nodePtr2->next) 
+    nodePtr2 = nodePtr2->next; 
+  
+    nodePtr2->next = newNode2; 
+} 
+} 
+ 
+void Quiz::Check2answer2(char ans,char question1) 
+{ 
+ ListNode1 *nodePtr1; 
+ ListNode2 *nodePtr2; 
+  
+ nodePtr1 = head1; 
+ nodePtr2 = head2; 
+  
+ for(int i=0;i<4;i++) // the iteration is to display the node that wanted in the linklist 
+ { 
+ nodePtr1 = nodePtr1->next; 
+    nodePtr2 = nodePtr2->next; 
+    } 
+ 
+  
+ if(nodePtr1->ans == nodePtr2->question1) 
+ { 
+    cout << "The answer: " << nodePtr1->ans << endl; 
+ cout << "The answer is correct" << endl; 
+ cout << "\n"; 
+    } 
+ else 
+ { 
+ cout << "The answer is wrong" << endl; 
+ cout << "Dont worry best of luck for Level 2" << endl; 
+ cout << "\n"; 
+    }    
+} 
+ 
+void Quiz::Rnd2Lvl1question3(char question1) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+ ListNode2 *newNode2; 
+ ListNode2 *nodePtr2; 
+ nodePtr2 = head2; 
+ char answer1; 
+  
+ cout << "->As the Group3 Member 2 please answer this question." << endl; 
+ cout << "->Ahat is the basic unit of all living things? " << endl; 
+ cout << "A.Atom\nB.Cell\nC.Particle" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer1; 
+ cout << "\n"; 
+ while(answer1 !='A' && answer1 !='B' && answer1 !='C') // validation for the answer 
+answered by player 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group3 Member 2 please answer this questions" << endl; 
+  cout << "->Ahat is the basic unit of all living things? " << endl; 
+  cout << "A.Atom\nB.Cell\nC.Particle" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer1; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+  
+ newNode2 = new ListNode2; 
+    newNode2->question1 = answer1; 
+    newNode2->next = nullptr;  
+        
+    if (!head2)  // If there are no nodes in the linklist make newNode to firstnode 
+    head2 = newNode2; 
+    else  
+{ 
+    nodePtr2 = head2; 
+ 
+    while (nodePtr2->next) 
+    nodePtr2 = nodePtr2->next; 
+  
+    nodePtr2->next = newNode2; 
+} 
+} 
+ 
+void Quiz::Check2answer3(char ans,char question1) 
+{ 
+ ListNode1 *nodePtr1; 
+ ListNode2 *nodePtr2; 
+  
+ nodePtr1 = head1; 
+ nodePtr2 = head2; 
+  
+ for(int i=0;i<5;i++) // the iteration is to display the node that wanted in the linklist 
+ { 
+ nodePtr1 = nodePtr1->next; 
+    nodePtr2 = nodePtr2->next; 
+    } 
+ 
+  
+ if(nodePtr1->ans == nodePtr2->question1) 
+ { 
+    cout << "The answer: " << nodePtr1->ans << endl; 
+ cout << "The answer is correct" << endl; 
+ cout << "\n"; 
+    } 
+ else 
+ { 
+ cout << "The answer is wrong" << endl; 
+ cout << "Dont worry best of luck for Level 2" << endl; 
+ cout << "\n"; 
+    }    
+} 
+ 
+void Quiz::containanswer(char answer) // this funtion is to store correct answer for question 
+level1 
+{ 
+ ListNode1 *newNode1; 
+ ListNode1 *nodePtr1; 
+  
+ newNode1 = new ListNode1; 
+    newNode1->ans = answer; // answer is inserted into the linklist 
+    newNode1->next = nullptr; 
+      
+    if (!head1)  // If there are no nodes in the linklist make newNode to firstnode 
+    head1 = newNode1; 
+    else  
+{ 
+    nodePtr1 = head1; 
+ 
+    while (nodePtr1->next) 
+    nodePtr1 = nodePtr1->next; 
+  
+    nodePtr1->next = newNode1; 
+} 
+} 
+void Quiz::displaylist() // this function will display the correct answer and answer answered by 
+players for level1 
+{ 
+ ListNode1 *nodePtr1; 
+ ListNode2 *nodePtr2; 
+  
+  
+ nodePtr1 = head1; 
+ nodePtr2 = head2; 
+ cout << "The correct answer is for Level 1 questions: " << endl; 
+ while(nodePtr1) 
+ { 
+   
+  cout << nodePtr1->ans << endl; // the corect answer is display by pointer point 
+to ans which is first node 
+  nodePtr1 = nodePtr1->next; // counter to the next node 
+ } 
+ cout << "The answer that answered by players: " << endl;  
+ while(nodePtr2) 
+ { 
+   
+  cout << nodePtr2->question1 << endl; // the answer answered by players is 
+display by pointer point to ans which is first node 
+  nodePtr2 = nodePtr2->next; // counter to the next node 
+ } 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ cout << "->CONGRATULATIONS!!!!YOU ALL ENTER FOR THE SECOND LEVEL OF THE 
+GAME BECAUSE FIRST LEVEL ITS WARM UP FOR THE BRAIN" << endl; 
+ cout<< "****************************DONT FORGET ELIMANATION START FROM 
+SECOND LEVEL!!!****************************" << endl; 
+ cout << "**********************************GOOD LUCK FOR YOUR SECOND 
+LEVEL!!!**********************************" << endl; 
+  
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Quiz2.cpp file 
+#include<iostream> 
+#include"Quiz.h" 
+using namespace std; 
+ 
+void Quiz::containanswer2(char answer2) // contain the correct answer for the level2 questions 
+with third linklist same as previous function 
+{ 
+ ListNode3 *newNode3; 
+ ListNode3 *nodePtr3; 
+  
+ newNode3 = new ListNode3; 
+    newNode3->ans2 = answer2; 
+    newNode3->next = nullptr; 
+     
+    if (!head3) // If there are no nodes in the linklist make newNode to firstnode 
+    head3 = newNode3; 
+    else  
+{ 
+    nodePtr3 = head3; 
+ 
+    while (nodePtr3->next) 
+    nodePtr3 = nodePtr3->next; 
+  
+    nodePtr3->next = newNode3; 
+} 
+} 
+ 
+void Quiz::Rnd1Lvl2question1(char question2) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode4 *newNode4; 
+ ListNode4 *nodePtr4; 
+ nodePtr4 = head4; 
+ char answer2; 
+  
+ cout << "->As the Group1 Member 3 please answer this questions" << endl; 
+ cout <<"->What is the largest cat in the world?" << endl; 
+ cout << "A.Lion\nB.Leopard\nC.Tiger" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer2; 
+ cout << "\n"; 
+ while(answer2 !='A' && answer2 !='B' && answer2 !='C') 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout <<"->What is the largest cat in the world?" << endl; 
+     cout << "A.Lion\nB.Leopard\nC.Tiger" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer2; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+  
+ newNode4 = new ListNode4; 
+    newNode4->question2 = answer2; 
+    newNode4->next = nullptr;  
+        
+    if (!head4) // If there are no nodes in the linklist make newNode to firstnode 
+    head4 = newNode4; 
+    else  
+{ 
+    nodePtr4 = head4; 
+ 
+    while (nodePtr4->next) 
+    nodePtr4 = nodePtr4->next; 
+  
+    nodePtr4->next = newNode4; 
+} 
+} 
+ 
+void Quiz::RND1Checkanswer1(char ans2,char question2) // It is to check the answer for the 
+question1 
+{ 
+ 
+ ListNode3 *nodePtr3; 
+ ListNode4 *nodePtr4; 
+  
+ nodePtr3 = head3; 
+ nodePtr4 = head4; 
+ int num; 
+  
+  
+ if(nodePtr3->ans2 == nodePtr4->question2) 
+ { 
+    cout << "The answer: " << nodePtr3->ans2 << endl; 
+ cout << "The answer is correct" << endl; 
+ cout << "\n"; 
+    } 
+ else 
+ { 
+ cout << "The answer is wrong" << endl; 
+ cout << "Dont worry best of luck for round 2" << endl; 
+    
+} 
+} 
+void Quiz::Rnd1Lvl2question2(char question2) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode4 *newNode4; 
+ ListNode4 *nodePtr4; 
+ nodePtr4 = head4; 
+ char answer2; 
+  
+ cout << "->As the Group2 Member 3 please answer this question." << endl; 
+ cout << "->Which country won world cup 2010? " << endl; 
+ cout << "A.Germany\nB.Spain\nC.France" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer2; 
+ cout << "\n"; 
+ while(answer2 !='A' && answer2 !='B' && answer2 !='C') 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group2 Member 3 please answer this questions" << endl; 
+  cout << "->Which country won world cup 2010? " << endl; 
+  cout << "A.Germany\nB.Spain\nC.France" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer2; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+  
+ newNode4 = new ListNode4; 
+    newNode4->question2 = answer2; 
+    newNode4->next = nullptr;  
+        
+    if (!head4) // If there are no nodes in the linklist make newNode to firstnode 
+    head4 = newNode4; 
+    else  
+{ 
+    nodePtr4 = head4; 
+ 
+    while (nodePtr4->next) 
+    nodePtr4 = nodePtr4->next; 
+  
+    nodePtr4->next = newNode4; 
+} 
+} 
+ 
+void Quiz::RND1Checkanswer2(char ans2,char question2) // It is to check the answer for the 
+question2 
+{ 
+ 
+ ListNode3 *nodePtr3; 
+ ListNode4 *nodePtr4; 
+  
+ nodePtr3 = head3; 
+ nodePtr4 = head4; 
+  
+  
+ if(nodePtr3->ans2 == nodePtr4->question2) 
+ { 
+    cout << "The answer: " << nodePtr3->ans2 << endl; 
+ cout << "The answer is correct" << endl; 
+    } 
+ else 
+ { 
+ cout << "The answer is wrong" << endl; 
+ cout << "Dont worry best of luck for round 2" << endl; 
+} 
+} 
+ 
+void Quiz::Rnd1Lvl2question3(char question2) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode4 *newNode4; 
+ ListNode4 *nodePtr4; 
+ nodePtr4 = head4; 
+ char answer2; 
+  
+ cout << "->As the Group3 Member 3 please answer this question." << endl; 
+ cout << "->What is the heaviest planet in our solar system? " << endl; 
+ cout << "A.Neptune\nB.Saturn\nC.Jupiter" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer2; 
+ cout << "\n"; 
+ while(answer2 !='A' && answer2 !='B' && answer2 !='C') 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group3 Member 3 please answer this questions" << endl; 
+  cout << "->What is the heaviest planet in our solar system? " << endl; 
+  cout << "A.Neptune\nB.Saturn\nC.Jupiter" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer2; 
+  cout << "\n"; 
+    
+ } 
+  
+ newNode4 = new ListNode4; 
+    newNode4->question2 = answer2; 
+    newNode4->next = nullptr;  
+        
+    if (!head4) // If there are no nodes in the linklist make newNode to firstnode 
+    head4 = newNode4; 
+    else  
+{ 
+    nodePtr4 = head4; 
+ 
+    while (nodePtr4->next) 
+    nodePtr4 = nodePtr4->next; 
+  
+    nodePtr4->next = newNode4; 
+} 
+} 
+ 
+void Quiz::RND1Checkanswer3(char ans2,char question2) // It is to check the answer for the 
+question3 
+{ 
+ 
+ ListNode3 *nodePtr3; 
+ ListNode4 *nodePtr4; 
+  
+ nodePtr3 = head3; 
+ nodePtr4 = head4; 
+  
+ for(int i=0;i<2;i++) // the iteration is to display the node that wanted in the linklist 
+ { 
+ nodePtr3 = nodePtr3->next; 
+    nodePtr4 = nodePtr4->next; 
+    } 
+  
+  
+ if(nodePtr3->ans2 == nodePtr4->question2) 
+ { 
+    cout << "The answer: " << nodePtr3->ans2 << endl; 
+ cout << "The answer is correct" << endl; 
+    } 
+ else 
+ { 
+ cout << "The answer is wrong" << endl; 
+    } 
+} 
+ 
+void Quiz::Rnd2Lvl2question1(char question2) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode4 *newNode4; 
+ ListNode4 *nodePtr4; 
+ nodePtr4 = head4; 
+ char answer2; 
+  
+ cout << "->As the Group1 Member 1 please answer this question." << endl; 
+ cout <<"->When was the last major tsunami?" << endl; 
+ cout << "A.2004\nB.2012\nC.2014" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer2; 
+ cout << "\n"; 
+ while(answer2 !='A' && answer2 !='B' && answer2 !='C') 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group1 Member 1 please answer this questions" << endl; 
+  cout <<"->When was the last major tsunami?" << endl; 
+  cout << "A.2004\nB.2012\nC.2014" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer2; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+  
+ newNode4 = new ListNode4; 
+    newNode4->question2 = answer2; 
+    newNode4->next = nullptr;  
+        
+    if (!head4) // If there are no nodes in the linklist make newNode to firstnode 
+    head4 = newNode4; 
+    else  
+{ 
+    nodePtr4 = head4; 
+ 
+    while (nodePtr4->next) 
+    nodePtr4 = nodePtr4->next; 
+  
+    nodePtr4->next = newNode4; 
+} 
+} 
+ 
+void Quiz::RND2Checkanswer1(char ans2,char question2) /// It is to check the answer for the 
+question1 
+{ 
+ 
+ ListNode3 *nodePtr3; 
+ ListNode4 *nodePtr4; 
+  
+ nodePtr3 = head3; 
+ nodePtr4 = head4; 
+  
+ for(int i=0;i<3;i++) // the iteration is to display the node that wanted in the linklist 
+ { 
+ nodePtr3 = nodePtr3->next; 
+    nodePtr4 = nodePtr4->next; 
+    } 
+  
+  
+ if(nodePtr3->ans2 == nodePtr4->question2) 
+ { 
+    cout << "The answer: " << nodePtr3->ans2 << endl; 
+ cout << "The answer is correct" << endl; 
+    } 
+ else 
+ { 
+ cout << "The answer is wrong" << endl; 
+ cout << "Dont worry best of luck for level 3" << endl; 
+} 
+} 
+ 
+void Quiz::Rnd2Lvl2question2(char question2) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode4 *newNode4; 
+ ListNode4 *nodePtr4; 
+ nodePtr4 = head4; 
+ char answer2; 
+  
+ cout << "->As the Group2 Member 1 please answer this question." << endl; 
+ cout << "->Which country has maple leaf on its flag?" << endl; 
+ cout << "A.Japan\nB.Canada\nC.Hungary" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer2; 
+ cout << "\n"; 
+ while(answer2 !='A' && answer2 !='B' && answer2 !='C') 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group2 Member 1 please answer this questions" << endl; 
+  cout << "->Which country has maple leaf on its flag?" << endl; 
+  cout << "A.Japan\nB.Canada\nC.Hungary" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer2; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+  
+ newNode4 = new ListNode4; 
+    newNode4->question2 = answer2; 
+    newNode4->next = nullptr;  
+        
+    if (!head4) // If there are no nodes in the linklist make newNode to firstnode 
+    head4 = newNode4; 
+    else  
+{ 
+    nodePtr4 = head4; 
+ 
+    while (nodePtr4->next) 
+    nodePtr4 = nodePtr4->next; 
+  
+    nodePtr4->next = newNode4; 
+} 
+} 
+ 
+void Quiz::RND2Checkanswer2(char ans2,char question2) // It is to check the answer for the 
+question2 
+{ 
+ 
+ ListNode3 *nodePtr3; 
+ ListNode4 *nodePtr4; 
+  
+ nodePtr3 = head3; 
+ nodePtr4 = head4; 
+  
+ for(int i=0;i<4;i++) // the iteration is to display the node that wanted in the linklist 
+ { 
+ nodePtr3 = nodePtr3->next; 
+    nodePtr4 = nodePtr4->next; 
+    } 
+  
+  
+ if(nodePtr3->ans2 == nodePtr4->question2) 
+ { 
+    cout << "The answer: " << nodePtr3->ans2 << endl; 
+ cout << "The answer is correct" << endl; 
+    } 
+ else 
+ { 
+ cout << "The answer is wrong" << endl; 
+ cout << "Dont worry best of luck for level 3" << endl; 
+} 
+} 
+ 
+void Quiz::Rnd2Lvl2question3(char question2) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode4 *newNode4; 
+ ListNode4 *nodePtr4; 
+ nodePtr4 = head4; 
+ char answer2; 
+  
+ cout << "->As the Group3 Member 1 please answer this question." << endl; 
+ cout << "->What is formed after the death of a massive star? " << endl; 
+ cout << "A.White Hole\nB.Black Hole\nC.Worm Hole" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer2; 
+ cout << "\n"; 
+ while(answer2 !='A' && answer2 !='B' && answer2 !='C') 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->What is formed after the death of a massive star? " << endl; 
+  cout << "A.White Hole\nB.Black Hole\nC.Worm Hole" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer2; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+  
+ newNode4 = new ListNode4; 
+    newNode4->question2 = answer2; 
+    newNode4->next = nullptr;  
+        
+    if (!head4) // If there are no nodes in the linklist make newNode to firstnode 
+    head4 = newNode4; 
+    else  
+{ 
+    nodePtr4 = head4; 
+ 
+    while (nodePtr4->next) 
+    nodePtr4 = nodePtr4->next; 
+  
+    nodePtr4->next = newNode4; 
+} 
+} 
+ 
+void Quiz::RND2Checkanswer3(char ans2,char question2) // It is to check the answer for the 
+question3 
+{ 
+ 
+ ListNode3 *nodePtr3; 
+ ListNode4 *nodePtr4; 
+ 
+ nodePtr3 = head3; 
+ nodePtr4 = head4; 
+  
+ for(int i=0;i<5;i++) // the iteration is to display the node that wanted in the linklist 
+ { 
+ nodePtr3 = nodePtr3->next; 
+    nodePtr4 = nodePtr4->next; 
+    } 
+  
+  
+ if(nodePtr3->ans2 == nodePtr4->question2) 
+ { 
+    cout << "The answer: " << nodePtr3->ans2 << endl; 
+ cout << "The answer is correct" << endl; 
+    } 
+ else 
+ { 
+ cout << "The answer is wrong" << endl; 
+ cout << "Dont worry best of luck for level 3" << endl; 
+} 
+} 
+ 
+void Quiz::displaylist2()  // this function will display annswer that stored in linklists same as 
+previous function for level2 
+{ 
+ ListNode3 *nodePtr3; 
+ ListNode4 *nodePtr4; 
+  
+  
+ nodePtr3 = head3; 
+ nodePtr4 = head4; 
+ int count,count1=0; 
+  
+ cout << "The correct answer is for Round 1 and Round 2 for LEVEL2: " << endl; 
+ cout << "->THE FLOW OF ANSWER ANSWERED BY GROUP AS GROUP1->QUESTION1 and 
+QUESTION4" << endl; 
+ cout << "->THE FLOW OF ANSWER ANSWERED BY GROUP AS GROUP2->QUESTION2 and 
+QUESTION5" << endl; 
+ cout << "->THE FLOW OF ANSWER ANSWERED BY GROUP AS GROUP2->QUESTION3 and 
+QUESTION6" << endl; 
+ while(nodePtr3 && count<6) 
+ { 
+  cout << "The anwer for question" << count+1 << ": "; 
+  cout << nodePtr3->ans2 << endl; 
+  nodePtr3 = nodePtr3->next; 
+  count++; 
+ } 
+ cout << "The answer that answered by players: " << endl;  
+ while(nodePtr4 && count1<6) 
+ { 
+  cout << "The anwer for question" << count1+1 << ": "; 
+  cout << nodePtr4->question2 << endl; 
+  nodePtr4 = nodePtr4->next; 
+  count1++; 
+ } 
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Quiz3.cpp file 
+#include<iostream> 
+#include"Quiz.h" 
+#include"Members.h" 
+using namespace std; 
+ 
+void Quiz::containanswer3(char answer3) // contain the correct answer for the level3 questions 
+with third linklist same as previous function 
+{ 
+ ListNode5 *newNode5; 
+ ListNode5 *nodePtr5; 
+  
+ newNode5 = new ListNode5; 
+    newNode5->ans3 = answer3; 
+    newNode5->next = nullptr; 
+     
+    if (!head5)  // If there are no nodes in the linklist make newNode to firstnode 
+    head5 = newNode5; 
+    else  
+{ 
+    nodePtr5 = head5; 
+ 
+    while (nodePtr5->next) 
+    nodePtr5 = nodePtr5->next; 
+  
+    nodePtr5->next = newNode5; 
+} 
+} 
+ 
+void Members1::displaystack() // this function display the member can answer the level3 
+question by stack 
+{ 
+ if(stackTop == nullptr) // is to ensure the stack is not empty 
+ { 
+  cout << "The stack is empty" << endl; 
+ } 
+ else 
+ { 
+  struct Group1 *temp=stackTop; 
+  cout <<"Members can answer the Question in this round:" << endl; 
+  while(temp!= nullptr)//validation if the stack come to nullptr will be stop 
+  { 
+   cout << "Member" << temp->members1 << endl; // display the node in 
+the stack 
+   temp=temp->next; // counter of stack to move to the next node 
+  } 
+  cout << "\n"; 
+ } 
+} 
+ 
+void Quiz::Rnd1Lvl3question1(char question3) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode6 *newNode6; 
+ ListNode6 *nodePtr6; 
+ nodePtr6 = head6; 
+ char answer3; 
+ cout << "->First Question for Group1 any member can ans the question:" << endl; 
+ cout << "->What is the most expensive substance in the world? " << endl; 
+ cout << "A.Diamond\nB.Antimatter\nC.Red stone" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer3; 
+ cout << "\n"; 
+ while(answer3 !='A' && answer3 !='B' && answer3 !='C') 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group1 please answer this questions" << endl; 
+  cout << "->What is the most expensive substance in the world? " << endl; 
+  cout << "A.Diamond\nB.Antimatter\nC.Red stone" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer3; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+ 
+ newNode6 = new ListNode6; 
+    newNode6->question3 = answer3; 
+    newNode6->next = nullptr;  
+        
+    if (!head6)  // If there are no nodes in the linklist make newNode to firstnode 
+    head6 = newNode6; 
+    else  
+{ 
+    nodePtr6 = head6; 
+ 
+    while (nodePtr6->next) 
+    nodePtr6 = nodePtr6->next; 
+  
+    nodePtr6->next = newNode6; 
+} 
+} 
+ 
+void Members2::displaystack5() 
+{ 
+ if(stackTop2 == nullptr) 
+ { 
+  cout << "The stack is empty" << endl; 
+ } 
+ else 
+ { 
+  int count=0; 
+  struct Group2 *temp2=stackTop2; 
+  cout <<"Members can answer the Question in this round:" << endl; 
+  while(temp2!= nullptr) 
+  { 
+   cout << "Member" << temp2->members2 << endl; 
+   temp2=temp2->next; 
+  } 
+  cout << "\n"; 
+ } 
+} 
+ 
+void Quiz::Rnd1Lvl3question2(char question3) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode6 *newNode6; 
+ ListNode6 *nodePtr6; 
+ nodePtr6 = head6; 
+ char answer3; 
+ cout << "\n"; 
+ cout << "->First Question for Group2 any member can ans the question:" << endl; 
+ cout << "->How many countries in the world? " << endl; 
+ cout << "A.195\nB.198\nC.201" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer3; 
+ while(answer3 !='A' && answer3 !='B' && answer3 !='C') 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group2 please answer this questions" << endl; 
+  cout << "->How many countries in the world? " << endl; 
+  cout << "A.195\nB.198\nC.201" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer3; 
+  cout << "\n"; 
+    
+ } 
+ cout <<"\n"; 
+ 
+ newNode6 = new ListNode6; 
+    newNode6->question3 = answer3; 
+    newNode6->next = nullptr;  
+        
+    if (!head6)  // If there are no nodes in the linklist make newNode to firstnode 
+    head6 = newNode6; 
+    else  
+{ 
+    nodePtr6 = head6; 
+ 
+    while (nodePtr6->next) 
+    nodePtr6 = nodePtr6->next; 
+  
+    nodePtr6->next = newNode6; 
+} 
+} 
+ 
+void Members3::displaystack6() 
+{ 
+ if(stackTop3 == nullptr) 
+ { 
+  cout << "The stack is empty" << endl; 
+ } 
+ else 
+ { 
+  int count=0; 
+  struct Group3 *temp3=stackTop3; 
+  cout <<"Members can answer the Question in this round:" << endl; 
+  while(temp3!= nullptr) 
+  { 
+   cout << "Member" << temp3->members3 << endl; 
+   temp3=temp3->next; 
+  } 
+  cout << "\n"; 
+ } 
+} 
+ 
+ 
+void Quiz::Rnd1Lvl3question3(char question3) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode6 *newNode6; 
+ ListNode6 *nodePtr6; 
+ nodePtr6 = head6; 
+ char answer3; 
+ cout << "\n"; 
+ cout << "->First Question for Group3 any member can ans the question:" << endl; 
+ cout << "->Which scientist discovered the big bang theory?" << endl; 
+ cout << "A.Albert Einstein\nB.Isaac Newton\nC.Georges Lemaitre" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer3; 
+ while(answer3 !='A' && answer3 !='B' && answer3 !='C') 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group3 please answer this questions" << endl; 
+  cout << "->Which scientist discovered the big bang theory?" << endl; 
+  cout << "A.Albert Einstein\nB.Isaac Newton\nC.Georges Lemaitre" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer3; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+ 
+ newNode6 = new ListNode6; 
+    newNode6->question3 = answer3; 
+    newNode6->next = nullptr;  
+        
+    if (!head6)  // If there are no nodes in the linklist make newNode to firstnode 
+    head6 = newNode6; 
+    else  
+{ 
+    nodePtr6 = head6; 
+ 
+    while (nodePtr6->next) 
+    nodePtr6 = nodePtr6->next; 
+  
+    nodePtr6->next = newNode6; 
+} 
+} 
+ 
+void Quiz::Rnd2Lvl3question1(char question3) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode6 *newNode6; 
+ ListNode6 *nodePtr6; 
+ nodePtr6 = head6; 
+ char answer3; 
+ cout << "\n"; 
+ cout << "Second Question for Group1 any member can ans the question:" << endl; 
+ cout << "->Which of these are strongest living creature in the world? " << endl; 
+ cout << "A.Rhinoceros Beetle\nB.Dung Beetle\nC.Elephant" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer3; 
+ while(answer3 !='A' && answer3 !='B' && answer3 !='C') 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group1 please answer this questions" << endl; 
+  cout << "->Which of these are strongest living creature in the world? " << endl; 
+  cout << "A.Rhinoceros Beetle\nB.Dung Beetle\nC.Elephant" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer3; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+ 
+ newNode6 = new ListNode6; 
+    newNode6->question3 = answer3; 
+    newNode6->next = nullptr;  
+        
+    if (!head6)  // If there are no nodes in the linklist make newNode to firstnode 
+    head6 = newNode6; 
+    else  
+{ 
+    nodePtr6 = head6; 
+ 
+    while (nodePtr6->next) 
+    nodePtr6 = nodePtr6->next; 
+  
+    nodePtr6->next = newNode6; 
+} 
+} 
+ 
+void Quiz::Rnd2Lvl3question2(char question3) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode6 *newNode6; 
+ ListNode6 *nodePtr6; 
+ nodePtr6 = head6; 
+ char answer3; 
+  
+ cout << "->Second Question for Group2 any member can ans the question:" << endl; 
+ cout << "->What era did the T Rex live in?" << endl; 
+ cout << "A.Late Cretaceous period\nB.Triassic period\nC.Jurassic period" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer3; 
+ cout << "\n"; 
+ while(answer3 !='A' && answer3 !='B' && answer3 !='C') 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group2 please answer this questions" << endl; 
+  cout << "->What era did the T Rex live in?" << endl; 
+  cout << "A.Late Cretaceous period\nB.Triassic period\nC.Jurassic period" << 
+endl; 
+  cout << "->Answer: "; 
+  cin >> answer3; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+ 
+ newNode6 = new ListNode6; 
+    newNode6->question3 = answer3; 
+    newNode6->next = nullptr;  
+        
+    if (!head6) 
+    head6 = newNode6; 
+    else  
+{ 
+    nodePtr6 = head6; 
+ 
+    while (nodePtr6->next) 
+    nodePtr6 = nodePtr6->next; 
+  
+    nodePtr6->next = newNode6; 
+} 
+} 
+ 
+void Quiz::Rnd2Lvl3question3(char question3) // This function to input the output the question 
+and input the answer in the first linklist 
+{ 
+  
+ ListNode6 *newNode6; 
+ ListNode6 *nodePtr6; 
+ nodePtr6 = head6; 
+ char answer3; 
+ cout << "->Second Question for Group3 any member can ans the question:" << endl; 
+ cout << "->How many bones are there in an adult human body?" << endl; 
+ cout << "A.206\nB.215\nC.220" << endl; 
+ cout << "->Answer: "; 
+ cin >> answer3; 
+ cout << "\n"; 
+ while(answer3 !='A' && answer3 !='B' && answer3 !='C') 
+ { 
+  cout << "->YOU ENTER OPTION IS INVALID.PLEASE ENTER THE OPTION IN 
+CAPITAL LETTER.THANK YOU!!!" << endl; 
+  cout << "->As the Group3 please answer this questions" << endl; 
+  cout << "->How many bones are there in an adult human body?" << endl; 
+  cout << "A.206\nB.215\nC.220" << endl; 
+  cout << "->Answer: "; 
+  cin >> answer3; 
+  cout << "\n"; 
+    
+ } 
+ cout << "\n"; 
+ 
+ newNode6 = new ListNode6; 
+    newNode6->question3 = answer3; 
+    newNode6->next = nullptr;  
+        
+    if (!head6)  // If there are no nodes in the linklist make newNode to firstnode 
+    head6 = newNode6; 
+    else  
+{ 
+    nodePtr6 = head6; 
+ 
+    while (nodePtr6->next) 
+    nodePtr6 = nodePtr6->next; 
+  
+    nodePtr6->next = newNode6; 
+} 
+} 
+ 
+void Quiz::displaylist3() // this function will display annswer that stored in linklists same as 
+previous function for level3 
+{ 
+ ListNode5 *nodePtr5; 
+ ListNode6 *nodePtr6; 
+  
+  
+ nodePtr5 = head5; 
+ nodePtr6 = head6; 
+  
+ int count,count2 = 0; 
+  
+ cout << "The correct answer is for Round 1 and Round 2 for LEVEL3: " <<endl; 
+ while(nodePtr5 && count<6) 
+ { 
+  cout << "The anwer for question" << count+1 << ": "; 
+  cout << nodePtr5->ans3 << endl; 
+  nodePtr5 = nodePtr5->next; 
+  count++; 
+ } 
+ cout << "The answer that answered by players: " << endl;  
+ while(nodePtr6 && count2<6) 
+ { 
+  cout << "The anwer for question" << count2+1 << ": "; 
+  cout << nodePtr6->question3 << endl; 
+  nodePtr6 = nodePtr6->next; 
+  count2++; 
+ } 
+} 
+ 
+void Quiz::dtrmwinner() // this function will determine the winner 
+{ 
+ int 
+wronggrp1,wronggrp2,wronggrp3,members1,members2,members3,members4,members5; 
+ char answer1,answer2,answer3,answer4,answer5; 
+ 
+  
+ cout << "->THE INSTRUCTOR PLEASE CHECK THE ANSWER ANSWERED BY PLAYERS 
+CORRECT OR NOT" << endl; 
+ cout << "->THE INSTRUCTOR HAVE TO ENTER THE NUMBER OF WROONG BY 
+COMPARING CORRECT ANSWER AND ANSWER ANSWERED BY PLAYERS AS THE FLOW SHOWN 
+BELOW" << endl; 
+ cout << "->THE FLOW OF ANSWER ANSWERED BY GROUP AS GROUP1->QUESTION1 and 
+QUESTION4" << endl; 
+ cout << "->THE FLOW OF ANSWER ANSWERED BY GROUP AS GROUP2->QUESTION2 and 
+QUESTION5" << endl; 
+ cout << "->THE FLOW OF ANSWER ANSWERED BY GROUP AS GROUP2->QUESTION3 and 
+QUESTION6" << endl; 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ cout << "->Enter the number of the wrong obtained by Group1: "; 
+ cin >> wronggrp1; // input the number of wrong for grp1 
+ cout << "\n"; 
+ while(wronggrp1>2) //validation for number of wrong ans   
+ { 
+  cout << "->You enter wrong input validation.It must be within 2 wrongs.Thank 
+you!!!" << endl; 
+  cout << "->The instructor have to enter the number of wrong to determine the 
+who is the winner of the game" << endl; 
+     cout << "->Enter the number of the wrong obtained by Group1: "; 
+     cin >> wronggrp1; 
+   
+ } 
+  
+ cout << "\n"; 
+  
+ cout << "->Enter the number of the wrong obtained by Group2: "; 
+ cin >> wronggrp2; // input the number of wrong for grp2 
+ cout << "\n"; 
+ while(wronggrp2>2) //validation for number of wrong ans 
+ { 
+  cout << "->You enter wrong input validation.It must be within 2 wrongs.Thank 
+you!!!" << endl; 
+  cout << "->The instructor have to enter the number of wrong to determine the 
+who is the winner of the game" << endl; 
+     cout << "->Enter the number of the wrong obtained by Group2: "; 
+     cin >> wronggrp2; 
+   
+ } 
+  
+ cout << "\n"; 
+  
+ cout << "->Enter the number of the wrong obtained by Group3: "; 
+ cin >> wronggrp3; // input the number of wrong for grp3 
+ cout << "\n"; 
+ while(wronggrp3>2) //validation for number of wrong ans 
+ { 
+  cout << "->You enter wrong input validation.It must be within 2 wrongs.Thank 
+you!!!" << endl; 
+  cout << "->The instructor have to enter the number of wrong to determine the 
+who is the winner of the game" << endl; 
+     cout << "->Enter the number of the wrong obtained by Group3: "; 
+     cin >> wronggrp3; 
+   
+ } 
+  
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+  
+ if(wronggrp1<wronggrp2 && wronggrp1<wronggrp3) // Is to determine that grp1 is the 
+winner 
+ { 
+  cout << "->***THE WINNER OF THE GAME IS GROUP1***<-!!!!" <<endl; 
+  cout << "->CONGRATULATIONS GROUP1 YOUR KNOWLEDGE IS FAR BETTER 
+FROM OTHERS WHO WAS IN THE GAME!!!" << endl; 
+  cout << "->WAIT FOR VERSION2.0 OF THE GAME TO TEST YOUR KNOWLEDGE 
+WITH DIFFERENT QUESTIONS WHICCH WILL BE MORE DIFFICULT FROM THIS!!!" << endl; 
+  cout << "->KEEP IT UP!!!"<< endl; 
+  cout << "->THANK YOU FOR PLAYING THIS GAME!!!" << endl; 
+  cout << "\n"; 
+ } 
+ else if(wronggrp2<wronggrp1 && wronggrp2<wronggrp3) // Is to determine that grp2 is 
+the winner 
+ { 
+  cout << "->***THE WINNER OF THE GAME IS GROUP2***<-!!!!" <<endl; 
+  cout << "->CONGRATULATIONS GROUP2 YOUR KNOWLEDGE IS FAR BETTER 
+FROM OTHERS WHO WAS IN THE GAME!!!" << endl; 
+  cout << "->WAIT FOR VERSION2.0 OF THE GAME TO TEST YOUR KNOWLEDGE 
+WITH DIFFERENT QUESTIONS WHICCH WILL BE MORE DIFFICULT FROM THIS!!!" << endl; 
+  cout << "->KEEP IT UP!!!"<< endl; 
+  cout << "->THANK YOU FOR PLAYING THIS GAME!!!" << endl; 
+  cout << "\n"; 
+ } 
+ else if(wronggrp3<wronggrp1 && wronggrp3<wronggrp2) // Is to determine that grp3 is 
+the winner 
+ { 
+  cout << "->***THE WINNER OF THE GAME IS GROUP3***<-!!!!" <<endl; 
+  cout << "->CONGRATULATIONS YOUR GROUP KNOWLEDGE IS FAR BETTER FROM 
+OTHERS WHO WAS IN THE GAME!!!" << endl; 
+  cout << "->WAIT FOR VERSION2.0 OF THE GAME TO TEST YOUR KNOWLEDGE 
+WITH DIFFERENT QUESTIONS WHICCH WILL BE MORE DIFFICULT FROM THIS!!!" << endl; 
+  cout << "->KEEP IT UP!!!"<< endl; 
+  cout << "->THANK YOU FOR PLAYING THIS GAME!!!" << endl; 
+  cout << "\n"; 
+ } 
+ else if(wronggrp1==wronggrp2 && wronggrp1 != wronggrp3) // Is to determine whether 
+grp1 or grp2 is winner due to same number of wrong answer 
+ { 
+  cout << "->GROUP1 AND GROUP2 GET SAME NUMBER OF CORRECT ANSWER" << 
+endl; 
+  cout << "->YOU ALL HAVE TO ANSWER THE BONUS QUESTION TO DETERMINE 
+THE WINNER" << endl; 
+  cout << "->WHICH GROUP ANSWER FIRSTLY AND IF THE ANSWER CORRECT THEY 
+ARE THE WINNER OF THIS GAME" << endl; 
+  cout << "->IF 1 GROUP ANSWER WRONGLY ANOTHER WILL WIN THIS GAME SO 
+THINK CAREFULLY AND THINK AS FAST AS YOU CAN TO ANSWER CORRECTLY" << endl; 
+  cout << "->What is the most abundant element on earth? " << endl; 
+  cout << "A.Oxygen\nB.Carbon\nC.Nitrogen" << endl; 
+  cout << "->ENTER THE GROUP WHO WANT TO ANSWER THE QUESTION: " << 
+endl; 
+  cout << "->Group: "; 
+  cin >> members1; // have to input the grp number 
+  cout << "\n"; 
+  while(members1>4) // validation for number grp number 
+  { 
+   cout << "->You enter invalid value and there is 3 group only .PLease Try 
+again.Thank you" << endl; 
+   cin >> members1; 
+   cout << "\n"; 
+  } 
+  cout << "->ENTER THE ANSWER NOW: "; 
+  cin >> answer1; // input the answer for bonus question 
+  cout << "\n"; 
+  while(answer1 != 'A' && answer1 != 'B' && answer1 != 'C') // validation for the 
+answer answered by player for bonus question 
+  { 
+   cout << "->Please input your answer with capital letter.Thank you" << 
+endl; 
+   cout << "->What is the most abundant element on earth? " << endl; 
+   cout << "A.Oxygen\nB.Carbon\nC.Nitrogen" << endl; 
+   cout << "->ENTER THE ANSWER NOW: "; 
+      cin >> answer1; 
+      cout << "\n"; 
+  } 
+     if(answer1 == 'A') // to determine that grp1 is winner 
+     { 
+      cout << "->***THE WINNER OF THE GAME IS  GROUP" << members1 << " 
+***<-" <<endl; 
+      cout << "->CONGRATULATIONS GROUP1 YOUR KNOWLEDGE IS FAR BETTER 
+FROM OTHERS WHO WAS IN THE GAME!!!" << endl; 
+      cout << "->WAIT FOR VERSION2.0 OF THE GAME TO TEST YOUR KNOWLEDGE 
+WITH DIFFERENT QUESTIONS WHICCH WILL BE MORE DIFFICULT FROM THIS!!!" << endl; 
+       cout << "->KEEP IT UP!!!"<< endl; 
+      cout << "->THANK YOU FOR PLAYING THIS GAME!!!" << endl; 
+      cout << "\n"; 
+     } 
+     else // to determinne that grp2 is winner 
+     { 
+      cout << "->***THE WINNER OF THE GAME IS GROUP1***<-" <<endl; 
+      cout << "->CONGRATULATIONS YOUR GROUP WIN THIS GAME BECAUSE YOU 
+REMAIN CALM ALTHOUGH YOU DIDNT KNOW THE ANSWER OF THE BONUS QUESTION!!!" << 
+endl; 
+      cout << "->WAIT FOR VERSION2.0 OF THE GAME TO TEST YOUR KNOWLEDGE 
+WITH DIFFERENT QUESTIONS WHICCH WILL BE MORE DIFFICULT FROM THIS!!!" << endl; 
+       cout << "->KEEP IT UP!!!"<< endl; 
+      cout << "->THANK YOU FOR PLAYING THIS GAME!!!" << endl; 
+      cout << "\n"; 
+     } 
+ } 
+  
+ else if(wronggrp1==wronggrp3 && wronggrp1!=wronggrp2) // is to determine to 
+whether grp 1 or grp3 is the winner same as previous function 
+ { 
+  cout << "->GROUP1 AND GROUP3 GET SAME NUMBER OF CORRECT ANSWER" << 
+endl; 
+  cout << "->YOU ALL HAVE TO ANSWER THE BONUS QUESTION TO DETERMINE 
+THE WINNER" << endl; 
+  cout << "->WHICH GROUP ANSWER FIRSTLY AND IF THE ANSWER CORRECT THEY 
+ARE THE WINNER OF THIS GAME" << endl; 
+  cout << "->IF 1 GROUP ANSWER WRONGLY ANOTHER WILL WIN THIS GAME SO 
+THINK CAREFULLY AND THINK AS FAST AS YOU CAN TO ANSWER CORRECTLY" << endl; 
+  cout << "\n"; 
+  cout << "->Which country has the greatest number of tigers? " << endl; 
+  cout << "A.Russia\nB.China\nC.India" << endl; 
+  cout << "->ENTER THE GROUP WHO WANT TO ANSWER THE QUESTION: " << 
+endl; 
+  cout << "->GROUP: "; 
+  cin >> members2; 
+  cout << "\n"; 
+  while(members2>3) 
+  { 
+   cout << "->You enter invalid value and there is 3 GROUP only .PLease Try 
+again.Thank you" << endl; 
+   cin >> members2; 
+   cout << "\n"; 
+  } 
+  cout << "->ENTER THE ANSWER NOW: "; 
+  cin >> answer2; 
+  cout << "\n"; 
+  while(answer2 != 'A' && answer2 != 'B' && answer2 != 'C') 
+  { 
+   cout << "->Please input your answer with capital letter.Thank you" << 
+endl; 
+   cout << "->Which country has the greatest number of tigers? " << endl; 
+   cout << "A.Russia\nB.China\nC.India" << endl; 
+   cout << "->ENTER THE ANSWER NOW: "; 
+      cin >> answer2; 
+      cout << "\n"; 
+  } 
+     if(answer2 == 'C') 
+     { 
+      cout << "->***THE WINNER OF THE GAME IS GROUP" << members2 << " 
+***<-" <<endl; 
+      cout << "->CONGRATULATIONS YOUR GROUP KNOWLEDGE IS FAR BETTER 
+FROM OTHERS WHO WAS IN THE GAME!!!" << endl; 
+      cout << "->WAIT FOR VERSION2.0 OF THE GAME TO TEST YOUR KNOWLEDGE 
+WITH DIFFERENT QUESTIONS WHICCH WILL BE MORE DIFFICULT FROM THIS!!!" << endl; 
+       cout << "->KEEP IT UP!!!"<< endl; 
+      cout << "->THANK YOU FOR PLAYING THIS GAME!!!" << endl; 
+      cout << "\n"; 
+     } 
+     else 
+     { 
+      cout << "->***THE WINNER OF THE GAME IS GROUP3***<-" <<endl; 
+      cout << "->CONGRATULATIONS YOU WIN THIS GAME BECAUSE YOU REMAIN 
+CALM ALTHOUGH YOU DIDNT KNOW THE ANSWER OF THE BONUS QUESTION!!!" << endl; 
+      cout << "\n"; 
+      cout << "->WAIT FOR VERSION2.0 OF THE GAME TO TEST YOUR KNOWLEDGE 
+WITH DIFFERENT QUESTIONS WHICCH WILL BE MORE DIFFICULT FROM THIS!!!" << endl; 
+       cout << "->KEEP IT UP!!!"<< endl; 
+      cout << "->THANK YOU FOR PLAYING THIS GAME!!!" << endl; 
+      cout << "\n"; 
+     } 
+ } 
+  
+ else if(wronggrp2 == wronggrp3 && wronggrp2!=wronggrp1) // is to determine to 
+whether grp 2 or grp3 is the winner same as previous function 
+ { 
+  cout << "->GROUP2 AND GROUP3 GET SAME NUMBER OF CORRECT ANSWER" << 
+endl; 
+  cout << "->YOU ALL HAVE TO ANSWER THE BONUS QUESTION TO DETERMINE 
+THE WINNER" << endl; 
+  cout << "->WHICH GROUP ANSWER FIRSTLY AND IF THE ANSWER CORRECT THEY 
+ARE THE WINNER OF THIS GAME" << endl; 
+  cout << "->IF 1 GROUP ANSWER WRONGLY ANOTHER WILL WIN THIS GAME SO 
+THINK CAREFULLY AND THINK AS FAST AS YOU CAN TO ANSWER CORRECTLY" << endl; 
+  cout << "\n"; 
+  cout << "->What is the national flower of USA" << endl; 
+  cout << "A.Canada\nB.USA\nC.United Kingdom" << endl; 
+  cout << "->ENTER THE GROUP WHO WANT TO ANSWER THE QUESTION: " << 
+endl; 
+  cout << "->GROUP: "; 
+  cin >> members3; 
+  cout << "\n"; 
+  while(members3>3) 
+  { 
+   cout << "->You enter invalid value and there is 3 GROUP only .PLease Try 
+again.Thank you" << endl; 
+   cin >> members3; 
+   cout << "\n"; 
+  } 
+  cout << "->ENTER THE ANSWER NOW: "; 
+  cin >> answer3; 
+  cout << "\n"; 
+  while(answer3 != 'A' && answer3 != 'B' && answer3 != 'C') 
+  { 
+   cout << "->Please input your answer with capital letter.Thank you" << 
+endl; 
+   cout << "->What is the national flower of USA" << endl; 
+   cout << "A.Canada\nB.USA\nC.United Kingdom" << endl; 
+   cout << "->ENTER THE ANSWER NOW: "; 
+      cin >> answer3; 
+      cout << "\n"; 
+  } 
+     if(answer3 == 'B' ) 
+     { 
+      cout << "->THE WINNER OF THE GAME IS GROUP " << members3 << " 
+***<-" <<endl; 
+      cout << "->CONGRATULATIONS YOUR GROUP KNOWLEDGE IS FAR BETTER 
+FROM OTHERS WHO WAS IN THE GAME!!!" << endl; 
+      cout << "\n"; 
+      cout << "->WAIT FOR VERSION2.0 OF THE GAME TO TEST YOUR KNOWLEDGE 
+WITH DIFFERENT QUESTIONS WHICCH WILL BE MORE DIFFICULT FROM THIS!!!" << endl; 
+       cout << "->KEEP IT UP!!!"<< endl; 
+      cout << "->THANK YOU FOR PLAYING THIS GAME!!!" << endl; 
+      cout << "\n"; 
+     } 
+     else 
+     { 
+      cout << "->***THE WINNER OF THE GAME IS GROUP3***<-" <<endl; 
+      cout << "->CONGRATULATIONS GROUP3 YOU WIN THIS GAME BECAUSE YOU 
+REMAIN CALM ALTHOUGH YOU DIDNT KNOW THE ANSWER OF THE BONUS QUESTION!!!" << 
+endl; 
+      cout << "\n"; 
+      cout << "->WAIT FOR VERSION2.0 OF THE GAME TO TEST YOUR KNOWLEDGE 
+WITH DIFFERENT QUESTIONS WHICCH WILL BE MORE DIFFICULT FROM THIS!!!" << endl; 
+       cout << "->KEEP IT UP!!!"<< endl; 
+      cout << "->THANK YOU FOR PLAYING THIS GAME!!!" << endl; 
+      cout << "\n"; 
+     } 
+ } 
+  
+ else if(wronggrp1 == wronggrp2 && wronggrp1== wronggrp3 && 
+wronggrp2==wronggrp3) // is to determine whether grp1 or grp2 or grp3 the winner when they 
+get same number of wrong answer 
+ { 
+  cout << "->GROUP1 AND GROUP2 AND GROUP3 GET SAME NUMBER OF 
+CORRECT ANSWER" << endl; 
+  cout << "->YOU ALL HAVE TO ANSWER THE BONUS QUESTION TO DETERMINE 
+THE WINNER" << endl; 
+  cout << "->WHICH GROUP ANSWER FIRSTLY AND IF THE ANSWER CORRECT THEY 
+ARE THE WINNER OF THIS GAME" << endl; 
+  cout << "->IF 1 GROUP ANSWER WRONGLY ANOTHER WILL WIN THIS GAME SO 
+THINK CAREFULLY AND THINK AS FAST AS YOU CAN TO ANSWER CORRECTLY" << endl; 
+  cout << "->What is the densest object in the universe? " << endl; 
+  cout << "A.Star\nB.Neuron Star\nC.Planets" << endl; 
+  cout << "->ENTER THE GROUP WHO WANT TO ANSWER THE QUESTION: " << 
+endl; 
+  cout << "->GROUP: "; 
+  cin >> members4; 
+  while(members4>3) 
+  { 
+   cout << "->You enter invalid value and there is 3 GROUP only .PLease Try 
+again.Thank you" << endl; 
+   cout << "->GROUP: "; 
+   cin >> members4; 
+   cout << "\n"; 
+  } 
+  cout << "->ENTER THE ANSWER NOW: "; 
+  cin >> answer4; 
+  cout << "\n"; 
+  while(answer4 != 'A' && answer4 != 'B' && answer4 != 'C') 
+  { 
+   cout << "->Please input your answer with capital letter.Thank you" << 
+endl; 
+   cout << "->What is the densest object in the universe? " << endl; 
+   cout << "A.Star\nB.Neuron Star\nC.Planets" << endl; 
+   cout << "->ENTER THE ANSWER NOW: "; 
+      cin >> answer4; 
+      cout << "\n"; 
+  } 
+     if(answer4 == 'B' ) 
+     { 
+      cout << "->***THE WINNER OF THE GAME IS GROUP" << members4 << " 
+***<-" <<endl; 
+      cout << "->CONGRATULATIONS YOUR GROUP KNOWLEDGE IS FAR BETTER 
+FROM OTHERS WHO WAS IN THE GAME!!!" << endl; 
+      cout << "\n"; 
+      cout << "->WAIT FOR VERSION2.0 OF THE GAME TO TEST YOUR KNOWLEDGE 
+WITH DIFFERENT QUESTIONS WHICCH WILL BE MORE DIFFICULT FROM THIS!!!" << endl; 
+       cout << "->KEEP IT UP!!!"<< endl; 
+      cout << "->THANK YOU FOR PLAYING THIS GAME!!!" << endl; 
+      cout << "\n"; 
+     } 
+     else 
+     { 
+      cout << "->UNFORTUNATELY GROUP" << members4 << " ANSWERED THE 
+QUESTION WRONGLY" << endl; 
+      cout << "->AND WILL BE THE OUT OF THIS GAME" << endl; 
+      cout << "->WHICH GROUP ANSWER FIRSTLY AND IF THE ANSWER 
+CORRECT THEY ARE THE WINNER OF THIS GAME" << endl; 
+      cout << "->IF 1 GROUP ANSWER WRONGLY ANOTHER WILL WIN THIS GAME 
+SO THINK CAREFULLY AND THINK AS FAST AS YOU CAN TO ANSWER CORRECTLY" << endl; 
+      cout <<"\n"; 
+   cout << "->What is the smallest insect in the world?" << endl; 
+   cout << "->A.Ghost Spider\nB.Fairyflyy\nC.Pharaoh Ant" << endl; 
+   cout << "->ENTER THE GROUP WHO WANT TO ANSWER THE QUESTION: " 
+<< endl; 
+   cout << "->GROUP: "; 
+   cin >> members5; 
+   cout << "\n"; 
+   while(members5 == members4) // when the grp that answer wrong 
+answer before this try to answer again it will not allow to answer 
+   { 
+    cout << "GROUP" << members4 << " YOU ARE OUT OF THE GAME 
+DONT TRY TO PLAY AGAIN THANK YOU." << endl; 
+    cout << "->WHICH GROUP ANSWER FIRSTLY AND IF THE ANSWER 
+CORRECT THEY ARE THE WINNER OF THIS GAME" << endl; 
+       cout << "->IF 1 GROUP ANSWER WRONGLY ANOTHER WILL WIN THIS 
+GAME SO THINK CAREFULLY AND THINK AS FAST AS YOU CAN TO ANSWER CORRECTLY" << 
+endl; 
+       cout <<"\n"; 
+    cout << "->What is the smallest insect in the world?" << endl; 
+    cout << "->A.Ghost Spider\nB.Fairyflyy\nC.Pharaoh Ant" << endl; 
+    cout << "->ENTER THE GROUP WHO WANT TO ANSWER THE 
+QUESTION: " << endl; 
+    cout << "->GROUP: "; 
+    cin >> members5; 
+   } 
+   while(members5>3) // validation for the number of grp 
+   { 
+   cout << "->You enter invalid value and there is 3 GROUP only .PLease Try 
+again.Thank you" << endl; 
+   cin >> members5; 
+   cout << "\n"; 
+   } 
+   cout << "->ENTER THE ANSWER NOW: "; 
+   cin >> answer5; 
+   cout << "\n"; 
+   while(answer5 != 'A' && answer5 != 'B' && answer5 != 'C') 
+   { 
+   cout << "->Please input your answer with capital letter.Thank you" << 
+endl; 
+   cout << "->ENTER THE ANSWER NOW: "; 
+      cin >> answer5; 
+      cout << "\n"; 
+   } 
+      if( answer5 == 'B') // detrmine which grp win within 2 grp that left 
+      { 
+      cout << "->***THE WINNER OF THE GAME IS GROUP***<-" << members5 
+<< " !!!!" <<endl; 
+      cout << "->CONGRATULATIONS YOUR GROUP KNOWLEDGE IS FAR BETTER 
+FROM OTHERS WHO WAS IN THE GAME!!!" << endl; 
+      cout << "\n"; 
+      cout << "->WAIT FOR VERSION2.0 OF THE GAME TO TEST YOUR KNOWLEDGE 
+WITH DIFFERENT QUESTIONS WHICCH WILL BE MORE DIFFICULT FROM THIS!!!" << endl; 
+       cout << "->KEEP IT UP!!!"<< endl; 
+      cout << "->THANK YOU FOR PLAYING THIS GAME!!!" << endl; 
+      cout << "\n"; 
+      } 
+      else 
+      { 
+      cout << "->UNFORTUNATELY GROUP" << members5 << " ANSWER THE 
+QUESTION WRONGLY!!!\n" << endl;  
+      cout << "->GROUP THAT DIDNT ANSWER THE BONUS QUESTION ARE THE 
+WINNER OF THE GAME!!!!" <<endl; // the last grp stand win the game due to 2 greap ahead 
+answer wrongly 
+      cout << "->***CONGRATULATIONS YOU WIN THIS GAME BECAUSE YOU 
+REMAIN CALM ALTHOUGH YOU DIDNT KNOW THE ANSWER OF THE BONUS QUESTION***<-" 
+<< endl; 
+      cout << "\n"; 
+      cout << "->WAIT FOR VERSION2.0 OF THE GAME TO TEST YOUR KNOWLEDGE 
+WITH DIFFERENT QUESTIONS WHICCH WILL BE MORE DIFFICULT FROM THIS!!!" << endl; 
+       cout << "->KEEP IT UP!!!"<< endl; 
+      cout << "->THANK YOU FOR PLAYING THIS GAME!!!" << endl; 
+      cout << "\n"; 
+      }  
+     } 
+ } 
+  
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Quiz Main.cpp file 
+#include <iostream> 
+#include "Quiz.h" 
+#include "Members.h" 
+using namespace std; 
+ 
+int main() 
+{ 
+    //object for the class used 
+ Quiz quiz1; 
+ Members1 grp; 
+ Members2 grp2; 
+ Members3 grp3; 
+ //parameter used in the function 
+ char question1,question2,question3; 
+ char ans,ans2; 
+ int eligrp1,eligrp2,eligrp3; 
+ string key; 
+  
+ // This is the interfece for the player and instructor to explain to the player 
+ cout << "***********************************************WELCOME TO THE 
+DARE TO KNOW YOUR KNOWLEDGE 
+GAME***********************************************\n" << endl; 
+ cout << "\t***************************************************THE 
+INSTRUCTION OF THE GAME**************************************************\n" << 
+endl; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ cout << "-> FOR THIS GAME YOU NEEDED THREE GROUPS AND WITHIN A GROUP MUST 
+HAVE THREE MEMBERS." << endl; 
+ cout << "-> FOR THIS GAME ALSO NEEDED AN INSTRUCTOR WHO IS TRUST WORTHY AT 
+LAST OF THE GAME INSTRUCTOR NEEDED IN THIS GAME." << endl; 
+ cout << "-> THIS GAME CONSISTS OF THREE LEVELS AND WITHIN EACH LEVEL YOU WILL 
+BE INVOLVED IN TWO ROUNDS.\n" << endl; 
+ cout << "-> AS THE FIRST ROUND OF FIRST LEVEL YOU WILL ANSWER QUESTION AS 
+GROUP1 MEMBER1-> GROUP2 MEMBER1-> GROUP3 MEMBER1." << endl; 
+ cout << "-> AS THE SECOND ROUND OF FIRST LEVEL YOU WILL ANSWER QUESTION AS 
+GROUP1 MEMBER3-> GROUP2 MEMBER3-> GROUP3 MEMBER3.\n" << endl; 
+ cout << "-> AS THE FIRST ROUND OF SECOND LEVEL YOU WILL ANSWER QUESTION AS 
+GROUP1 MEMBER1-> GROUP2 MEMBER1-> GROUP3 MEMBER1." << endl; 
+ cout << "-> AS THE SECOND ROUND OF SECOND LEVEL YOU WILL ANSWER QUESTION AS 
+GROUP1 MEMBER2-> GROUP2 MEMBER2-> GROUP3 MEMBER2.\n" << endl; 
+ cout << "-> AFTER THE SECOND LEVEL END YOUR GROUP MEMBER WILL ELIMINATE IF 
+YOU HAVE ANSWER QUESTIONS WRONGLY FOR SECOND LEVEL QUESTIONS." << endl; 
+ cout << "-> IF YOU HAVE ANSWER QUESTIONS WRONGLY 1 QUESTIONS FIRST MEMBER 
+OF YOUR GROUP"  
+      << "WILL BE EILIMINATED ELIMINATED FROM PROMOTING TO THIRD LEVEL." << endl; 
+ cout << "-> IF YOU HAVE ANSWER QUESTIONS WRONGLY 2 QUESTIONS FIRST MEMBER 
+AND SECOND MEMBER" 
+      << "WILL BE ELIMINATED FROM PROMOTING TO THIRD LEVEL.\n" << endl; 
+ cout << "-> AS THE FIRST ROUND OF THIRD LEVEL YOU WILL ANSWER QUESTION BY ANY 
+GROUP MEMBER OF YOURS AS GROUP1-> GROUP2-> GROUP3." << endl; 
+ cout << "-> AS THE SECOND ROUND OF THIRD LEVEL YOU WILL ANSWER QUESTION BY 
+ANY GROUP MEMBER OF YOURS AS GROUP1-> GROUP2-> GROUP3.\n" << endl; 
+ cout << "-> AT LAST THE INSTRUCTOR WILL CALCULATE HOW MANY WRONGS YOU GET 
+AND WILL DETERMINE THE WINNER OF THIS GAME.\n" << endl; 
+  
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+  
+ cout << "->IF YOU UNDERSTAND ALL THE INSTRUCTION PLEASE ENTER #1 TO START THE 
+GAME" << endl; 
+ cout << "->IF YOU DO NOT UNDERSTAND PLEASE READ BACK THE INSTRUCTION BEFORE 
+ENTER THE KEY.THANK YOU" << endl; 
+ cout << "->KEY: "; 
+ cin >> key; // Enter the key to access round 1 level 1 
+ cout << "\n"; 
+ while(key != "#1") // validation for key 
+ { 
+  cout << "->YOU ENTER INVALID KEY.PLEASE TRY AGAIN WITH VALID KEY.THANK 
+YOU!!!" << endl; 
+  cout << "->IF YOU UNDERSTAND ALL THE INSTRUCTION PLEASE ENTER #1 TO 
+START THE GAME" << endl; 
+  cout << "->IF YOU DO NOT UNDERSTAND PLEASE READ BACK THE INSTRUCTION 
+BEFORE ENTER THE KEY.THANK YOU" << endl; 
+  cout << "->KEY: "; 
+     cin >> key; 
+     cout << "\n"; 
+ } 
+ if(key == "#1") // if they enter the key correctly can access the function in it 
+ { 
+ quiz1.containanswer('A'); // this function for the answer for the question in the game 
+ quiz1.containanswer('B'); 
+ quiz1.containanswer('C'); 
+ quiz1.containanswer('C'); 
+ quiz1.containanswer('A'); 
+ quiz1.containanswer('B'); 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd1Lvl1question1(question1); // the question1 
+ quiz1.Checkanswer1(ans,question1); // check answer for question1 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd1Lvl1question2(question1); // the question2 
+ quiz1.Checkanswer2(ans,question1); // check answer for question2 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd1Lvl1question3(question1); // question3 
+ quiz1.Checkanswer3(ans,question1); // check answer for question3 
+    cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+    } 
+     
+    cout << "->IF YOU READY FOR SECOND ROUND OF LEVEL 1 PLEASE ENTER KEY #2 TO 
+CONTINUE THE GAME" << endl; 
+    cout << "KEY: "; 
+    cin >> key; //Enter the key to access round 2 level 1 
+    cout << "\n"; 
+    while(key !="#2") // validation for key 
+    { 
+       cout << "->YOU ENTER INVALID KEY.PLEASE TRY AGAIN WITH VALID KEY.THANK YOU!!!" << 
+endl; 
+       cout << "->IF YOU READY FOR SECOND ROUND OF LEVEL 1 PLEASE ENTER KEY #2 TO 
+CONTINUE THE GAME" << endl; 
+       cout << "KEY: "; 
+       cin >> key; 
+       cout << "\n"; 
+ } 
+ if(key == "#2") // if they enter the key correctly can access the function in it 
+ { 
+ cout << "->LETS GO TO ROUND2 OF LEVEL 1 GOOD LUCKK GUYS!!!\n" << endl; 
+  
+  
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd2Lvl1question1(question1); // question1 
+ quiz1.Check2answer1(ans,question1); // check ans for question1 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd2Lvl1question2(question1); // question2 
+ quiz1.Check2answer1(ans,question1); // check ans for question2 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd2Lvl1question3(question1); // question3 
+ quiz1.Check2answer1(ans,question1); // check ans for question3 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.displaylist(); // display the answer that answered by players and also correct 
+answer for previous questions in level1 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+    } 
+    cout << "->IF YOU READY FOR FIRST ROUND OF LEVEL 2 PLEASE ENTER KEY #3 TO CONTINUE 
+THE GAME" << endl; 
+    cout << "KEY: "; 
+    cin >> key; //Enter the key to access round 1 level 2 
+    cout << "\n"; 
+    while(key !="#3") // validation of key 
+    { 
+       cout << "->YOU ENTER INVALID KEY.PLEASE TRY AGAIN WITH VALID KEY.THANK YOU!!!" << 
+endl; 
+       cout << "->IF YOU READY FOR FIRST ROUND OF LEVEL 2 PLEASE ENTER KEY #3 TO 
+CONTINUE THE GAME" << endl; 
+       cout << "KEY: "; 
+       cin >> key; 
+       cout << "\n"; 
+ } 
+ if(key == "#3") // if they enter the key correctly can access the function in it 
+ { 
+ cout << "->LETS GO TO ROUND1 OF LEVEL 2 GOOD LUCKK GUYS!!!\n" << endl; 
+ cout << "->WE START WITH GROUP1 MEMBER 3 " << endl; 
+  
+ quiz1.containanswer2('C'); // this function for the answer for the question in the game 
+ quiz1.containanswer2('B'); 
+ quiz1.containanswer2('C'); 
+ quiz1.containanswer2('A'); 
+ quiz1.containanswer2('B'); 
+ quiz1.containanswer2('B'); 
+  
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd1Lvl2question1(question2); //question1 
+ quiz1.RND1Checkanswer1(ans2,question2); // check answer of question1 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd1Lvl2question2(question2); // question2 
+ quiz1.RND1Checkanswer2(ans2,question2);// check answer of question2 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd1Lvl2question3(question2); // question3 
+ quiz1.RND1Checkanswer3(ans2,question2);// check answer of question3 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+    } 
+     
+    cout << "->IF YOU READY FOR SECOND ROUND OF LEVEL 2 PLEASE ENTER KEY #4 TO 
+CONTINUE THE GAME" << endl; 
+    cout << "KEY: "; 
+    cin >> key; // enter key for round1 level2 
+    cout << "\n"; 
+    while(key !="#4") // validation of the key 
+    { 
+       cout << "->YOU ENTER INVALID KEY.PLEASE TRY AGAIN WITH VALID KEY.THANK YOU!!!" << 
+endl; 
+       cout << "->IF YOU READY FOR SECOND ROUND OF LEVEL 2 PLEASE ENTER KEY #4 TO 
+CONTINUE THE GAME" << endl; 
+       cout << "KEY: "; 
+       cin >> key; 
+       cout << "\n"; 
+ } 
+ if(key == "#4") 
+ { 
+ cout << "->LETS GO TO ROUND2 OF LEVEL 2 GOOD LUCKK GUYS!!!\n" << endl; 
+ cout <<"->WE START WITH GROUP1 MEMBER 2"; 
+  
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd2Lvl2question1(question2); // question1 
+ quiz1.RND2Checkanswer1(ans2,question2);// check answer of question1 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd2Lvl2question2(question2); // question2 
+ quiz1.RND2Checkanswer2(ans2,question2);// check answer of question2 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd2Lvl2question3(question2); // question3 
+ quiz1.RND2Checkanswer3(ans2,question2);// check answer of question3 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.displaylist2(); 
+    } 
+    // Explaining the eliminating process in Level2 
+    cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ cout << "->THE ELIMINATION PROCESS START NOW" << endl; 
+ cout << "->THE ELIMINATION PROCCESS WORKS AS IF YOUR GROUP GET 1 WRONG 
+FIRST MEMBER OF YOUR GROUP WILL BE ELIMINATE FROM PROMOTE TO LEVEL3" << endl; 
+ cout << "->THE ELIMINATION PROCESS WORKS AS IF YOUR GROUP GET 2 WRONGS 
+SECOND MEMBER OF YOUR GROUP WILL BE EILIMINATE FROM ROMOTE TO LEVEL3" << endl; 
+ cout << "->IT WILL BE CARRIED OUT BY INSTRUCTOR" << endl; 
+ cout << "->INSTRUCTOR YOU HAVE TO COMPARE WITH ORIGINAL ANSWER WITH 
+ANSWER ANNWERED BY PLAYER ACCORDING TO THE GROUP AS SHOWN BELOW" << endl; 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ grp.entmember1(3); // The push group members in a group using stack 
+ grp.entmember1(2); 
+ grp.entmember1(1); 
+ grp.elimember1(eligrp1); // Then pop out the group member if do wrong 
+  
+ grp2.entmember2(3); 
+ grp2.entmember2(2); 
+ grp2.entmember2(1); 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ grp2.elimember2(eligrp2); 
+ 
+ grp3.entmember3(3); 
+ grp3.entmember3(2); 
+ grp3.entmember3(1); 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ grp3.elimember3(eligrp3); 
+  
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ grp.displaystack2(); 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ grp2.displaystack3(); 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ grp3.displaystack4(); 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+  
+ quiz1.containanswer3('B'); // Contain answer for level3 
+ quiz1.containanswer3('A'); 
+ quiz1.containanswer3('C'); 
+ quiz1.containanswer3('B'); 
+ quiz1.containanswer3('A'); 
+ quiz1.containanswer3('A'); 
+  
+ cout << "->IF YOU READY FOR FIRST ROUND OF LEVEL 3 PLEASE ENTER KEY #5 TO 
+CONTINUE THE GAME" << endl; 
+    cout << "KEY: "; 
+    cin >> key; // Enter key for round2 level2 
+    cout << "\n"; 
+    while(key !="#5") // validation of key 
+    { 
+       cout << "->YOU ENTER INVALID KEY.PLEASE TRY AGAIN WITH VALID KEY.THANK YOU!!!" << 
+endl; 
+       cout << "->IF YOU READY FOR SECOND ROUND OF LEVEL 1 PLEASE ENTER KEY #5 TO 
+CONTINUE THE GAME" << endl; 
+       cout << "KEY: "; 
+       cin >> key; 
+       cout << "\n"; 
+ } 
+ if(key == "#5") 
+ { 
+ cout << "->LETS GO TO ROUND1 OF LEVEL 3 GOOD LUCK GUYS!!!\n" << endl; 
+ cout << "\n"; 
+  
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ grp.displaystack(); // display the answer and answer that answered by the players 
+ quiz1.Rnd1Lvl3question1(question3); // question1 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ grp2.displaystack5(); 
+ quiz1.Rnd1Lvl3question2(question3); 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ grp3.displaystack6(); 
+ quiz1.Rnd1Lvl3question3(question3); 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+  
+ cout << "->IF YOU READY FOR SECOND ROUND OF LEVEL 3 PLEASE ENTER KEY #6 TO 
+CONTINUE THE GAME" << endl; 
+    cout << "KEY: "; 
+    cin >> key; // Enter key for enter round 1 level3 
+    cout << "\n"; 
+    while(key !="#6") // validation of the key 
+    { 
+       cout << "->YOU ENTER INVALID KEY.PLEASE TRY AGAIN WITH VALID KEY.THANK YOU!!!" << 
+endl; 
+       cout << "->IF YOU READY FOR SECOND ROUND OF LEVEL 3 PLEASE ENTER KEY #6 TO 
+CONTINUE THE GAME" << endl; 
+       cout << "KEY: "; 
+       cin >> key; 
+       cout << "\n"; 
+ } 
+ if(key == "#6")  
+ { 
+ cout << "->LETS GO TO ROUND2 OF LEVEL 3 WHICH IS **FINAL ROUND** GOOD LUCK 
+GUYS!!!\n" << endl; 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd2Lvl3question1(question3); // question1 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd2Lvl3question2(question3); 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.Rnd2Lvl3question3(question3); 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+    } 
+    } 
+ quiz1.displaylist3(); // display the answer and answer that answered by the players 
+ cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+ quiz1.dtrmwinner(); // determine the winner by the instructor 
+    cout << "\n"; 
+ cout << "---------------------------------------------------------------------------------------------------------
+------------------------------------------------" << endl; 
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Screenshots outputs based on different scenarios 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When correct code is entered the program starts game. When valid answers are pressed program 
+continue with next question 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+When invalid answer is pressed the program run in loop till valid answer is entered 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When invalid key is entered the program run in loop until the correct key is entered 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The program display’s the correct answer to make things easier to the instructor to eliminate the 
+members in each group based on number of wrongs 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The program ask the instructor to input number of wrong get by each group to eliminate the group 
+members based on number of wrongs 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When invalid number of wrongs are entered by instructors, the program will run in loop.Untill avalid 
+number of wrong is entered. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When the instructor enters the fastest group raised hand for the question, that group will be able to 
+answer the question. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When invalid group number is entered the program run in a loop until valid answer is entered 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+When all the three groups has same number of wrong in Level 3 which is entered by the 
+instructor the program asks a tie breaker question. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When second key is entered the game will enter into second round of the first level 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ When the third key is entered the program will continue to level 2. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When forth key is entered the program will continue to round 2 of  level 2. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When fifth key is entered, the program will continue to Level three. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When sixth key is entered, the program will continue to final round. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When raised group answer wrongly automatically it will be out of the game. Then there will be 
+tie question between another two group. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+There will be another tie breaker question with other two groups. When the instructor enter 
+the name of eliminated group, the program will run in loop until the instructor enter the name 
+of the groups which are still in the game. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When the fastest raised group answers wrongly …automatically the another group wins the 
+game…. 

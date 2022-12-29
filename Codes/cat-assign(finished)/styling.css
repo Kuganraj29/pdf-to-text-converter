@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&display=swap');
+body{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(12, 156, 240));
+    border: 15px solid transparent;
+}
+
+/*Index.html*/
+.banner {
+    padding: 217px;
+    text-align: center;
+    background: #64c6ff;
+}
+
+.header{
+    width: 90%;
+    padding: 30px;
+    border: 5px solid rgb(216, 163, 16);
+}
+.header h1 {
+    font-size: 2.8em;
+    padding: 5px 0;
+    font-weight: 800;
+   font-style: "Lato";
+   color: #0077ff;
+}
+
+.header h2 {
+    font-size: 2.5em;
+    padding: 5px;
+    font-weight: 800;
+   font-style: "Lato";
+   color: #5e44ee;
+}
+.header p {
+    font-size: 1.1em;
+    font-weight: 100;
+    letter-spacing: 5px;
+    padding: 5px 0;
+}
+
+.Index_button{
+    background-color: #4400ff;
+    width: 100px;
+    font-size: 20px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 1px;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+
+.Index_button:hover {
+    background-color: rgb(143, 172, 252);
+}
+.BUTTON_In{
+    padding: 15px;
+}
+/*Home.html*/
+.ALL {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom:0%;
+    width: auto;
+    background-color: rgba(255, 0, 221, 0.452);
+  }
+
+.interface{
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.interface h1{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.interface h2{
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: aliceblue;
+   font-size: 25px;
+   background: -webkit-linear-gradient(rgb(255, 5, 5), rgb(255, 81, 154));
+
+}
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+   padding-bottom: 10px;
+}
+
+.title{
+    margin: 10px;
+    border-bottom: 1px solid #fafafa;
+}
+.container:hover{
+    box-shadow: 2px 5px 7px rgba(7, 0, 104, 0.1);
+}
+
+* {
+    margin: 0;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+}
+.navbar{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ffffff;
+}
+.navbar h1 
+{
+    color: #ffbb00;
+}
+
+
+
+.navbar .nav-links
+{
+    margin-left: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px;
+}
+.navbar a:hover{
+    color: #0077ff;
+}
+/*create*/
+
+.converter {
+    padding: 140px;
+    text-align: end;
+    background: #5eff36;
+    
+}
+.frm-result{
+    font-size: 1.1em;
+    font-weight: 100;
+    letter-spacing: 5px;
+    padding: 5px 0;
+}
+.details {
+    margin-left: 300px;
+    margin-right: 300px;
+    width: auto;
+    background-color: rgba(219, 26, 194, 0.452);
+    margin-bottom: 0px;
+    padding-bottom: 95px;
+}
+.details h1{
+    background: -webkit-linear-gradient(#eee, rgb(255, 64, 64));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    padding: 50px
+}
+.instruction{
+    text-align: left;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.instruction p{
+    background: -webkit-linear-gradient(#eee, rgb(2, 2, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.conversion{
+    padding: 5px;
+    text-align: center;
+}
+.btnd {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btnd:hover {
+    background-color: RoyalBlue;
+  }
+
+  .btns {
+    background-color: rgb(30, 255, 41);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btns:hover {
+    background-color: rgb(46, 180, 29);
+  }
+  .btnb {
+    background-color: rgb(255, 30, 30);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btnb:hover {
+    background-color: rgb(180, 29, 29);
+  }
+/*last page*/
+  .banner2nd {
+    padding: 150px;
+    text-align: center;
+    background: #64ffff;
+}
+.word{
+    width: 90%;
+    padding: 30px;
+    
+}
+.word h1 {
+    font-size: 2.8em;
+    padding: 5px 0;
+    font-weight: 800;
+   font-style: "Lato";
+   color: #0077ff;
+}
+.word h2 {
+    font-size: 1.5em;
+    padding: 5px 0;
+    font-weight: 800;
+   font-style: "Lato";
+   color: #000000;
+}
+
+/*
+.container {
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.blog-item {
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-bottom: 1px solid #fafafa;
+}
+.blog-item:hover{
+    box-shadow: 1px 3px 5px rgba(0, 0,0, 0.1);
+}
+.blog-item h2 {
+    font-size: 25px;
+    color: #ea00ff;
+    margin-bottom: 15px;
+}
+.blog-item a {
+    text-decoration: none;
+}
+.blog-details h2{
+    font-size: 25px;
+    color: #ea00ff;
+    margin-bottom: 10px;
+}
+.blog-details div
+{
+    margin: 20px 0;
+}
+.blog-details button {
+    background-color: #ea00ff;
+    border: 0;
+    padding: 8px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.create{
+    max-width: 400px;
+    margin: 30px auto;
+    text-align: center;
+}
+.create label {
+    text-align: left;
+    display: block;
+}
+.create h2 {
+    font-size: 30px;
+    color: #ea00ff;
+    margin-bottom: 50px;
+}
+.create input, .create select, .create textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    display: block;
+    box-sizing: border-box;
+}
+.create button {
+    background-color: #ea00ff;
+    border: 0;
+    width: 100px;
+    font-size: 20px;
+    padding: 8px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+*/
+
+/* EXTRA FROM BANNER
+a {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+}
+*/

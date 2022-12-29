@@ -1,0 +1,57 @@
+Pseudocode: Plagiarism Checker 
+ 
+vectorize= lambdaText: TfidfVectorizer().fit_transform(Text).toarray()  
+similarity = lambdadoc1, doc2: cosine_similarity([doc1, doc2]) 
+vectors= vectorize(file_content)  
+s_vectors= list(zip(file_name, vectors)) 
+result=set() 
+ 
+do 
+          if first_file==s_vectors and text_vector_first==s_vectors 
+          do new_vectors=s_vectors.copy() 
+          current_index = new_vectors.index((first_file, text_vector_first)) 
+         delete new_vectors[current_index] 
+          else return result 
+until 
+        second_file==new_vectors  
+        text_vector_second==new_vectors 
+ 
+score = similarity(text_vector_first, text_vector_second)[0][1]*100 
+file_pair = sorted((first_file, second_file)) 
+score = (file_pair[0], file_pair[1], score) 
+result.add(score)  
+return result 
+ 
+ 
+ 
+ 
+ 
+ 
+Pseudocode: Print Result 
+do 
+          data==check() 
+           print data 
+until 
+         data!=check() 
+ 
+ 
+Pseudocode: Showing Cosine Similarity 
+createarray A, B  
+numerator = dot(A, B)  
+denominator = sqrt(dot(A,A)*dot(B,B))  
+cosineSimilarity = acos(numerator/denominator)  
+cosineDistance= 1-cosineSimilarity  
+print cosineSimilarity, cosineDistance  
+print graph 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
